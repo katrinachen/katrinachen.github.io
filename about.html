@@ -1,91 +1,85 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="css/style.css" type="text/css">
-<title>Blue Developer Directory</title>
+<title>vnvinfo.net</title>
+<script src="js/script.js"></script>
 </head>
 <body>
 	<div id="container">
 		<header>
-			<h1><span class="blue-text">Blue</span> Developer Directory</h1>
-			<h2>Find A Developer <span class="white-text">NOW</span></h2>
+			<h1>
+				<span class="blue-text">Value</span> 'N' VISION Info.
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
 		</header>
-		
+
 		<nav id="menu">
 			<ul>
 				<li class="menuitem"><a href="index.html">Home</a></li>
-				<li class="menuitem"><a href="about.html">About Us</a></li>
-				<li class="menuitem"><a href="browse.html">Browse Developers</a></li>
-				<li class="menuitem"><a href="register.html">Register As Developer</a></li>
-				<li class="menuitem"><a href="contact.html">Contact Us</a></li>
+				<li class="menuitem"><a href="#">About</a></li>
+				<li class="menuitem"><a href="contact.html">Contact</a></li>
 			</ul>
-	    </nav>
-		 
-		 <aside>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
 			<nav id="leftmenu">
-			<h3>Links</h3>
+				<h3>Links</h3>
 				<ul>
-					<li><a href="browse.html">SEO</a></li>
-					<li><a href="browse.html">PHP</a></li>
-					<li><a href="browse.html">Ajax</a></li>
-					<li><a href="browse.html">jQuery</a></li>
-					<li><a href="browse.html">Web design</a></li>
-					<li><a href="browse.html">Web Programming</a></li>
-					<li><a href="browse.html">Content Creation</a></li>
-					<li><a href="browse.html">Internet Marketing</a></li>
-					<li><a href="browse.html">XHTML Templates</a></li>
+					<li><a href="en/agile/index.html">Agile Methodologies</a></li>
+					<li><a href="en/cloud/index.html">Cloud Computing</a></li>
+					<li><a href="en/corporate/index.html">Corporate Training</a></li>
+					<li><a href="en/blog/index.html">Blog</a></li>
+					<li><a href="en/other/index.html">Others</a></li>
 				</ul>
+
+				<div>
+					<br>
+					<br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
 			</nav>
+
 		</aside>
-    
-	<section>
-		<h2>Blue Developer Directory! </h2>
-<h3>Who Are We?</h3>
-<p>We are a fictional website and service that list top web developers around the world. Search and browse fictional web developers on our website absolutley FREE!</p>
-<h3>What Skills Do Our Developers Have?</h3>
-<p>Our listed fictional web developers skill ranges from Graphic design with Photoshop, Illustrator and Fireworks to markup languages like HTML5, XHTML and XML to programming languages such as Javascript, PHP, Python and ASP</p>
-   
- <video id="ad" width="500" height="350" controls>
- <source src="video/ad.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+
+			<h3>About vnvinfo.net</h3>
+
+			<p>
+				However we seems lost in the information world. Consequently losing
+				social and moral values. Therefore it is directly affecting our
+				emotional wellness.<br> Information is <b style="color: red;">COMPLEX</b>
+				in nature and this site intends to <b style="color: blue;"><i>SIMPLIFY</i></b>
+				this complexity in social, technological and corporate setup.
+			</p>
+
+		</section>
 
 
-<div style="width:400px;"> 
-  <button onclick="playPause()">Play/Pause</button> 
-  <button onclick="makeBig()">Big</button>
-  <button onclick="makeSmall()">Small</button>
-  <button onclick="makeNormal()">Normal</button>
-</div> 
-
-<script> 
-var myVideo=document.getElementById("ad"); 
-
-function playPause(){ 
-if (myVideo.paused) 
-  myVideo.play(); 
-else 
-  myVideo.pause(); 
-} 
-
-function makeBig(){ 
-myVideo.width=560; 
-} 
-
-function makeSmall(){ 
-myVideo.width=320; 
-} 
-
-function makeNormal(){ 
-myVideo.width=420; 
-} 
-</script> 
-
-	</section>
-</div><!--container end-->
-	<div style="clear;both"></div>
+	</div>
+	<!--container end-->
+	<div style=""></div>
 	<footer>
-		Copyright &copy; 2013, Blue Web Developer Directory
+		<span style="color: red;">NO</span> Copyright &copy; 2016, vnvinfo.net!
 	</footer>
 </body>
 </html>

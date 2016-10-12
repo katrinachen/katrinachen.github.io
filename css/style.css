@@ -3,9 +3,20 @@
 	text-align:left;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body{
-	margin:0;
-	padding:0;
+	position: relative;
+	padding-bottom:6rem;
+	margin:0;	
 	text-align:left;
 	font-size:13px;
 	font-family:arial,helvetica, sens-serif;
@@ -13,6 +24,7 @@ body{
 	background-color:#1c478e;
 	background-image:url(../images/background.png);
 	background-repeat:repeat-x;
+	min-height:100%;
 }
 
 a{
@@ -70,7 +82,8 @@ label{
 
 header{
 	width:960px;
-	height:85px;
+	height:85px;	
+
 }
 
 header h1{
@@ -189,7 +202,7 @@ section{
 }
 
 .float{
-	float:right;
+	width:600px;
 	margin:15px;
 }
 
@@ -217,11 +230,16 @@ dev-table tr,table.dev-table td{
 }
 
 footer{
-	width:100%;
-	background:#000;
-	color:#fff;
+
 	height:30px;
-	text-align:center;
-	margin-top:20px;
-	padding-top:15px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top:5px;
+  
+  background-color: #efefef;
+  text-align: center;
+  	
+   
 }
