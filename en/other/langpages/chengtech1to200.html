@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../css/style.css" type="text/css">
+<title>vnvinfo.net-blog-home</title>
+<script src="../../../js/script.js"></script>
+
+<!-- Additional Settings here -->
+<meta name="viewport" content="width=device-width">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+
+<!-- <link rel="stylesheet" -->
+<!-- 	href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+<style type="text/css">
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #4a4a4d;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th, td {
+	padding: 0.25rem;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+	background: yellow;
+}
+
+th:first-child {
+	border-top-left-radius: 5px;
+	text-align: left;
+}
+
+th:last-child {
+	border-top-right-radius: 5px;
+}
+
+thead {
+	background: linear-gradient(#49708f, #293f50);
+	background: #395870;
+	color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.paging-nav, #tableData {
+	width: 400px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+</style>
+<!-- Additional Settings ends here -->
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>
+				<img height="60" width="200" alt="logo"
+					src="../../../images/logo.jpg">
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
+		</header>
+
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><a href="../../../index.html">Home</a></li>
+				<li class="menuitem"><a href="../../../about.html">About</a></li>
+				<li class="menuitem"><a href="../../../contact.html">Contact</a></li>
+			</ul>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
+			<nav id="leftmenu">
+				<h3>Links</h3>
+				<ul>
+					<li><a href="../../agile/index.html">Agile Methodologies</a></li>
+					<li><a href="../../cloud/index.html">Cloud Computing</a></li>
+					<li><a href="../../corporate/index.html">Corporate
+							Training</a></li>
+					<li><a href="../../blog/index.html">Blog</a></li>
+					<li><a href="../../other/index.html">Others</a></li>
+				</ul>
+
+				<div>
+					<br> <br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
+			</nav>
+
+		</aside>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+			<span style="float: right;"><a href="chengtech201to400.html">[201~400]</a></span>
+			<br>
+
+			<h3>ENG to CH Technical [1~200]</h3>
+			<br>
+
+			<table id="tableData" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>ENG</th>
+						<th>CH</th>						
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>procedure</td>
+						<td>存储过程。</td>
+					</tr>					
+					<tr>
+						<td>2</td>
+						<td>distribution</td>
+						<td>发布。</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>public</td>
+						<td>公有的范围域</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>protect</td>
+						<td>保护的范围域</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>private</td>
+						<td>私有的范围域</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>static</td>
+						<td>静态的</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>sustainable</td>
+						<td>可维护的</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>loop</td>
+						<td>循环</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>bubble sort</td>
+						<td>冒泡排序</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>iterate</td>
+						<td>循环程序中的循环处理</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>variable</td>
+						<td>变量</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>constant</td>
+						<td>常量</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>array</td>
+						<td>数组</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>log</td>
+						<td>日志</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>algorithm</td>
+						<td>算法</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>bandwidth</td>
+						<td>带宽</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>binary</td>
+						<td>二进制</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>black box</td>
+						<td>黑盒</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>white box</td>
+						<td>白盒</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>blocked</td>
+						<td>阻塞</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>framework</td>
+						<td>框架</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>access</td>
+						<td>访问</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>interface</td>
+						<td>接口</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>debug</td>
+						<td>调试</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>release</td>
+						<td>发布</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>10.react</td>
+						<td>交互</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>Abstract</td>
+						<td>抽象</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>add-in</td>
+						<td>插件</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>encapsulation</td>
+						<td>封装</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>enum</td>
+						<td>枚举</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>object</td>
+						<td>对象</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>scope</td>
+						<td>生存空间</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>serialize</td>
+						<td>序列化</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>session</td>
+						<td>会话</td>
+					</tr>
+					<tr>
+						<td>35</td>
+						<td>native</td>
+						<td>本地</td>
+					</tr>
+					<tr>
+						<td>36</td>
+						<td>instance</td>
+						<td>实例</td>
+					</tr>
+					<tr>
+						<td>37</td>
+						<td>review</td>
+						<td>复查，</td>
+					</tr>
+					<tr>
+						<td>38</td>
+						<td>filter</td>
+						<td>过滤，</td>
+					</tr>
+					<tr>
+						<td>39</td>
+						<td>parameter</td>
+						<td>参数</td>
+					</tr>
+					<tr>
+						<td>40</td>
+						<td>library</td>
+						<td>库</td>
+					</tr>
+					<tr>
+						<td>41</td>
+						<td>maintenance</td>
+						<td>维护</td>
+					</tr>
+					<tr>
+						<td>42</td>
+						<td>backup</td>
+						<td>备份</td>
+					</tr>
+					<tr>
+						<td>43</td>
+						<td>scan</td>
+						<td>扫描</td>
+					</tr>
+					<tr>
+						<td>44</td>
+						<td>encode</td>
+						<td>编码</td>
+					</tr>
+					<tr>
+						<td>45</td>
+						<td>character</td>
+						<td>字符</td>
+					</tr>
+					<tr>
+						<td>46</td>
+						<td>compile</td>
+						<td>编译</td>
+					</tr>
+					<tr>
+						<td>47</td>
+						<td>device</td>
+						<td>设备</td>
+					</tr>
+					<tr>
+						<td>48</td>
+						<td>machine</td>
+						<td>机器</td>
+					</tr>
+					<tr>
+						<td>49</td>
+						<td>computer</td>
+						<td>计算机</td>
+					</tr>
+					<tr>
+						<td>50</td>
+						<td>personal computer</td>
+						<td>个人计算机</td>
+					</tr>
+					<tr>
+						<td>51</td>
+						<td>mouse</td>
+						<td>鼠标</td>
+					</tr>
+					<tr>
+						<td>52</td>
+						<td>keyboard</td>
+						<td>键盘</td>
+					</tr>
+					<tr>
+						<td>53</td>
+						<td>modem</td>
+						<td>调制解调器</td>
+					</tr>
+					<tr>
+						<td>54</td>
+						<td>hard disk</td>
+						<td>硬盘</td>
+					</tr>
+					<tr>
+						<td>55</td>
+						<td>floppy disk</td>
+						<td>软盘</td>
+					</tr>
+					<tr>
+						<td>56</td>
+						<td>software</td>
+						<td>软件</td>
+					</tr>
+					<tr>
+						<td>57</td>
+						<td>hardware</td>
+						<td>硬件</td>
+					</tr>
+					<tr>
+						<td>58</td>
+						<td>screen</td>
+						<td>显示器</td>
+					</tr>
+					<tr>
+						<td>59</td>
+						<td>monitor</td>
+						<td>屏幕</td>
+					</tr>
+					<tr>
+						<td>60</td>
+						<td>printer</td>
+						<td>打印机</td>
+					</tr>
+					<tr>
+						<td>61</td>
+						<td>laser printer</td>
+						<td>激光打印机</td>
+					</tr>
+					<tr>
+						<td>62</td>
+						<td>dot printer</td>
+						<td>针式打印机</td>
+					</tr>
+					<tr>
+						<td>63</td>
+						<td>inkjet</td>
+						<td>喷墨</td>
+					</tr>
+					<tr>
+						<td>64</td>
+						<td>digital</td>
+						<td>数字</td>
+					</tr>
+					<tr>
+						<td>65</td>
+						<td>analog</td>
+						<td>模拟</td>
+					</tr>
+					<tr>
+						<td>66</td>
+						<td>security</td>
+						<td>安全</td>
+					</tr>
+					<tr>
+						<td>67</td>
+						<td>account</td>
+						<td>帐号</td>
+					</tr>
+					<tr>
+						<td>68</td>
+						<td>administrator</td>
+						<td>管理员</td>
+					</tr>
+					<tr>
+						<td>69</td>
+						<td>log in</td>
+						<td>登陆</td>
+					</tr>
+					<tr>
+						<td>70</td>
+						<td>log out</td>
+						<td>退出</td>
+					</tr>
+					<tr>
+						<td>71</td>
+						<td>password</td>
+						<td>密码</td>
+					</tr>
+					<tr>
+						<td>72</td>
+						<td>license</td>
+						<td>牌照 许可证</td>
+					</tr>
+					<tr>
+						<td>73</td>
+						<td>access</td>
+						<td>访问许可</td>
+					</tr>
+					<tr>
+						<td>74</td>
+						<td>spec</td>
+						<td>规格</td>
+					</tr>
+					<tr>
+						<td>75</td>
+						<td>network</td>
+						<td>网络</td>
+					</tr>
+					<tr>
+						<td>76</td>
+						<td>intranet</td>
+						<td>内部网</td>
+					</tr>
+					<tr>
+						<td>77</td>
+						<td>Internet</td>
+						<td>因特网</td>
+					</tr>
+					<tr>
+						<td>78</td>
+						<td>browser</td>
+						<td>浏览器</td>
+					</tr>
+					<tr>
+						<td>79</td>
+						<td>broadband</td>
+						<td>宽带</td>
+					</tr>
+					<tr>
+						<td>80</td>
+						<td>homepage</td>
+						<td>网页</td>
+					</tr>
+					<tr>
+						<td>81</td>
+						<td>web</td>
+						<td>site</td>
+					</tr>
+					<tr>
+						<td>82</td>
+						<td>page</td>
+						<td>页 页面</td>
+					</tr>
+					<tr>
+						<td>83</td>
+						<td>upload</td>
+						<td>上传</td>
+					</tr>
+					<tr>
+						<td>84</td>
+						<td>download</td>
+						<td>下载</td>
+					</tr>
+					<tr>
+						<td>85</td>
+						<td>on-line</td>
+						<td>在线</td>
+					</tr>
+					<tr>
+						<td>86</td>
+						<td>off-line</td>
+						<td>不在线</td>
+					</tr>
+					<tr>
+						<td>87</td>
+						<td>domain</td>
+						<td>域</td>
+					</tr>
+					<tr>
+						<td>88</td>
+						<td>log</td>
+						<td>日志</td>
+					</tr>
+					<tr>
+						<td>89</td>
+						<td>server</td>
+						<td>服务器</td>
+					</tr>
+					<tr>
+						<td>90</td>
+						<td>client</td>
+						<td>客户端</td>
+					</tr>
+					<tr>
+						<td>91</td>
+						<td>local</td>
+						<td>本地</td>
+					</tr>
+					<tr>
+						<td>92</td>
+						<td>protocol</td>
+						<td>协议</td>
+					</tr>
+					<tr>
+						<td>93</td>
+						<td>program</td>
+						<td>程序</td>
+					</tr>
+					<tr>
+						<td>94</td>
+						<td>function</td>
+						<td>函数</td>
+					</tr>
+					<tr>
+						<td>95</td>
+						<td>kansuu</td>
+						<td>函数</td>
+					</tr>
+					<tr>
+						<td>96</td>
+						<td>process</td>
+						<td>流程</td>
+					</tr>
+					<tr>
+						<td>97</td>
+						<td>package</td>
+						<td>包 软件包</td>
+					</tr>
+					<tr>
+						<td>98</td>
+						<td>application</td>
+						<td>应用程序</td>
+					</tr>
+					<tr>
+						<td>99</td>
+						<td>middlewear</td>
+						<td>中间件</td>
+					</tr>
+					<tr>
+						<td>100</td>
+						<td>wizard</td>
+						<td>向导程序</td>
+					</tr>
+					<tr>
+						<td>101</td>
+						<td>interface</td>
+						<td>界面</td>
+					</tr>
+					<tr>
+						<td>102</td>
+						<td>install</td>
+						<td>安装</td>
+					</tr>
+					<tr>
+						<td>103</td>
+						<td>Uninstall</td>
+						<td>卸载</td>
+					</tr>
+					<tr>
+						<td>104</td>
+						<td>customize</td>
+						<td>自定义</td>
+					</tr>
+					<tr>
+						<td>105</td>
+						<td>excel</td>
+						<td>excel</td>
+					</tr>
+					<tr>
+						<td>106</td>
+						<td>word</td>
+						<td>word</td>
+					</tr>
+					<tr>
+						<td>107</td>
+						<td>powerpoint</td>
+						<td>powerpoint</td>
+					</tr>
+					<tr>
+						<td>108</td>
+						<td>access</td>
+						<td>access</td>
+					</tr>
+					<tr>
+						<td>109</td>
+						<td>visual</td>
+						<td>可视的</td>
+					</tr>
+					<tr>
+						<td>110</td>
+						<td>schema</td>
+						<td>XML 模式</td>
+					</tr>
+					<tr>
+						<td>111</td>
+						<td>main</td>
+						<td>主（函数）</td>
+					</tr>
+					<tr>
+						<td>112</td>
+						<td>size</td>
+						<td>尺寸（空间）</td>
+					</tr>
+					<tr>
+						<td>113</td>
+						<td>menu</td>
+						<td>菜单</td>
+					</tr>
+					<tr>
+						<td>114</td>
+						<td>switch</td>
+						<td>开关（变量）</td>
+					</tr>
+					<tr>
+						<td>115</td>
+						<td>Operation System(OS)</td>
+						<td>操作系统</td>
+					</tr>
+					<tr>
+						<td>116</td>
+						<td>console</td>
+						<td>控制台</td>
+					</tr>
+					<tr>
+						<td>117</td>
+						<td>desktop</td>
+						<td>桌面</td>
+					</tr>
+					<tr>
+						<td>118</td>
+						<td>window</td>
+						<td>窗口</td>
+					</tr>
+					<tr>
+						<td>119</td>
+						<td>help</td>
+						<td>帮助</td>
+					</tr>
+					<tr>
+						<td>120</td>
+						<td>toolbar</td>
+						<td>工具栏</td>
+					</tr>
+					<tr>
+						<td>121</td>
+						<td>button</td>
+						<td>按钮</td>
+					</tr>
+					<tr>
+						<td>122</td>
+						<td>sheet</td>
+						<td>表</td>
+					</tr>
+					<tr>
+						<td>123</td>
+						<td>field</td>
+						<td>字段</td>
+					</tr>
+					<tr>
+						<td>124</td>
+						<td>format</td>
+						<td>格式</td>
+					</tr>
+					<tr>
+						<td>125</td>
+						<td>preview</td>
+						<td>打印预览</td>
+					</tr>
+					<tr>
+						<td>126</td>
+						<td>printout</td>
+						<td>打印输出</td>
+					</tr>
+					<tr>
+						<td>127</td>
+						<td>option</td>
+						<td>选项</td>
+					</tr>
+					<tr>
+						<td>128</td>
+						<td>scale</td>
+						<td>刻度</td>
+					</tr>
+					<tr>
+						<td>129</td>
+						<td>job</td>
+						<td>作业</td>
+					</tr>
+					<tr>
+						<td>130</td>
+						<td>thread</td>
+						<td>线程</td>
+					</tr>
+					<tr>
+						<td>131</td>
+						<td>document</td>
+						<td>文档</td>
+					</tr>
+					<tr>
+						<td>132</td>
+						<td>file</td>
+						<td>文件</td>
+					</tr>
+					<tr>
+						<td>133</td>
+						<td>folder</td>
+						<td>文件夹</td>
+					</tr>
+					<tr>
+						<td>134</td>
+						<td>path</td>
+						<td>路径</td>
+					</tr>
+					<tr>
+						<td>135</td>
+						<td>version</td>
+						<td>版本</td>
+					</tr>
+					<tr>
+						<td>136</td>
+						<td>template</td>
+						<td>模板</td>
+					</tr>
+					<tr>
+						<td>137</td>
+						<td>sample</td>
+						<td>样本</td>
+					</tr>
+					<tr>
+						<td>138</td>
+						<td>report</td>
+						<td>报告</td>
+					</tr>
+					<tr>
+						<td>139</td>
+						<td>release</td>
+						<td>发布 发行</td>
+					</tr>
+					<tr>
+						<td>140</td>
+						<td>list</td>
+						<td>列表</td>
+					</tr>
+					<tr>
+						<td>141</td>
+						<td>fax</td>
+						<td>传真</td>
+					</tr>
+					<tr>
+						<td>142</td>
+						<td>manual</td>
+						<td>手册</td>
+					</tr>
+					<tr>
+						<td>143</td>
+						<td>trouble shooting</td>
+						<td>问题集</td>
+					</tr>
+					<tr>
+						<td>144</td>
+						<td>flowchart</td>
+						<td>流程图</td>
+					</tr>
+					<tr>
+						<td>145</td>
+						<td>user</td>
+						<td>用户</td>
+					</tr>
+					<tr>
+						<td>146</td>
+						<td>maker</td>
+						<td>厂家</td>
+					</tr>
+					<tr>
+						<td>147</td>
+						<td>data</td>
+						<td>数据</td>
+					</tr>
+					<tr>
+						<td>148</td>
+						<td>database</td>
+						<td>数据库</td>
+					</tr>
+					<tr>
+						<td>149</td>
+						<td>table</td>
+						<td>临时表</td>
+					</tr>
+					<tr>
+						<td>150</td>
+						<td>master</td>
+						<td>管理</td>
+					</tr>
+					<tr>
+						<td>151</td>
+						<td>record</td>
+						<td>记录</td>
+					</tr>
+					<tr>
+						<td>152</td>
+						<td>byte</td>
+						<td>字节</td>
+					</tr>
+					<tr>
+						<td>153</td>
+						<td>character</td>
+						<td>字符</td>
+					</tr>
+					<tr>
+						<td>154</td>
+						<td>source</td>
+						<td>源文件</td>
+					</tr>
+					<tr>
+						<td>155</td>
+						<td>coding</td>
+						<td>编码</td>
+					</tr>
+					<tr>
+						<td>156</td>
+						<td>review</td>
+						<td>检查 评审</td>
+					</tr>
+					<tr>
+						<td>157</td>
+						<td>check</td>
+						<td>检查</td>
+					</tr>
+					<tr>
+						<td>158</td>
+						<td>test</td>
+						<td>测试</td>
+					</tr>
+					<tr>
+						<td>159</td>
+						<td>black box</td>
+						<td>黑盒</td>
+					</tr>
+					<tr>
+						<td>160</td>
+						<td>white box</td>
+						<td>白盒</td>
+					</tr>
+					<tr>
+						<td>161</td>
+						<td>taskbar</td>
+						<td>任务栏</td>
+					</tr>
+					<tr>
+						<td>162</td>
+						<td>comment</td>
+						<td>注释 评价</td>
+					</tr>
+					<tr>
+						<td>163</td>
+						<td>rule</td>
+						<td>规则</td>
+					</tr>
+					<tr>
+						<td>164</td>
+						<td>maintenance</td>
+						<td>维护</td>
+					</tr>
+					<tr>
+						<td>165</td>
+						<td>mail</td>
+						<td>邮件</td>
+					</tr>
+					<tr>
+						<td>166</td>
+						<td>address</td>
+						<td>地址</td>
+					</tr>
+					<tr>
+						<td>167</td>
+						<td>skill</td>
+						<td>技能</td>
+					</tr>
+					<tr>
+						<td>168</td>
+						<td>object</td>
+						<td>对象</td>
+					</tr>
+					<tr>
+						<td>169</td>
+						<td>radio button</td>
+						<td>单选按钮</td>
+					</tr>
+					<tr>
+						<td>170</td>
+						<td>checkbox</td>
+						<td>复选框</td>
+					</tr>
+					<tr>
+						<td>171</td>
+						<td>commandbutton</td>
+						<td>命令按钮</td>
+					</tr>
+					<tr>
+						<td>172</td>
+						<td>listbox</td>
+						<td>列表框</td>
+					</tr>
+					<tr>
+						<td>173</td>
+						<td>combobox</td>
+						<td>下拉列表框</td>
+					</tr>
+					<tr>
+						<td>174</td>
+						<td>label</td>
+						<td>标签</td>
+					</tr>
+					<tr>
+						<td>175</td>
+						<td>real time</td>
+						<td>实时</td>
+					</tr>
+					<tr>
+						<td>176</td>
+						<td>remote control</td>
+						<td>远程控制</td>
+					</tr>
+					<tr>
+						<td>177</td>
+						<td>volume</td>
+						<td>容量</td>
+					</tr>
+					<tr>
+						<td>178</td>
+						<td>text</td>
+						<td>文本</td>
+					</tr>
+					<tr>
+						<td>179</td>
+						<td>＋</td>
+						<td>加 正</td>
+					</tr>
+					<tr>
+						<td>180</td>
+						<td>－</td>
+						<td>减 负</td>
+					</tr>
+					<tr>
+						<td>181</td>
+						<td>algorithm</td>
+						<td>算法</td>
+					</tr>
+					<tr>
+						<td>182</td>
+						<td>backup</td>
+						<td>备份</td>
+					</tr>
+					<tr>
+						<td>183</td>
+						<td>，</td>
+						<td>逗号</td>
+					</tr>
+					<tr>
+						<td>184</td>
+						<td>popup</td>
+						<td>弹出</td>
+					</tr>
+					<tr>
+						<td>185</td>
+						<td>event</td>
+						<td>事件</td>
+					</tr>
+					<tr>
+						<td>186</td>
+						<td>dialog box</td>
+						<td>对话框</td>
+					</tr>
+					<tr>
+						<td>187</td>
+						<td>error</td>
+						<td>错误</td>
+					</tr>
+					<tr>
+						<td>188</td>
+						<td>message</td>
+						<td>消息</td>
+					</tr>
+					<tr>
+						<td>189</td>
+						<td>directory</td>
+						<td>目录结构</td>
+					</tr>
+					<tr>
+						<td>190</td>
+						<td>pull-down menu</td>
+						<td>下拉菜单</td>
+					</tr>
+					<tr>
+						<td>191</td>
+						<td>frame</td>
+						<td>框</td>
+					</tr>
+					<tr>
+						<td>192</td>
+						<td>header</td>
+						<td>头</td>
+					</tr>
+					<tr>
+						<td>193</td>
+						<td>area</td>
+						<td>区域</td>
+					</tr>
+					<tr>
+						<td>194</td>
+						<td>scan</td>
+						<td>扫描</td>
+					</tr>
+					<tr>
+						<td>195</td>
+						<td>standby mode</td>
+						<td>待机模式</td>
+					</tr>
+					<tr>
+						<td>196</td>
+						<td>encode</td>
+						<td>编码</td>
+					</tr>
+					<tr>
+						<td>197</td>
+						<td>decode</td>
+						<td>解码</td>
+					</tr>
+					<tr>
+						<td>198</td>
+						<td>system</td>
+						<td>系统</td>
+					</tr>
+					<tr>
+						<td>199</td>
+						<td>module</td>
+						<td>模块</td>
+					</tr>
+					<tr>
+						<td>200</td>
+						<td>library</td>
+						<td>库</td>
+					</tr>
+				</tbody>
+				</table>
+				<br>
+				<br>
+				<span style="float: right;"><a href="chengtech201to400.html">[201~400]</a></span>
+
+				</section>
+
+
+				</div>
+				<!--container end-->
+				<div style=""></div>
+				<footer>
+					<span style="color: red;">NO</span> Copyright &copy; 2016,
+					vnvinfo.net!
+				</footer>
+				<script type="text/javascript"
+					src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+				<script
+					src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+				<script type="text/javascript" src="paging.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('#tableData').paging({
+							limit : 20
+						});
+					});
+				</script>
+</body>
+</html>

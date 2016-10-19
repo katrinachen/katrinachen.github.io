@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../css/style.css" type="text/css">
+<title>vnvinfo.net-blog-home</title>
+<script src="../../../js/script.js"></script>
+
+<!-- Additional Settings here -->
+<meta name="viewport" content="width=device-width">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+
+<!-- <link rel="stylesheet" -->
+<!-- 	href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+<style type="text/css">
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #4a4a4d;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th, td {
+	padding: 0.25rem;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+	background: yellow;
+}
+
+th:first-child {
+	border-top-left-radius: 5px;
+	text-align: left;
+}
+
+th:last-child {
+	border-top-right-radius: 5px;
+}
+
+thead {
+	background: linear-gradient(#49708f, #293f50);
+	background: #395870;
+	color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.paging-nav, #tableData {
+	width: 400px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+</style>
+<!-- Additional Settings ends here -->
+
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>
+				<img height="60" width="200" alt="logo"
+					src="../../../images/logo.jpg">
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
+		</header>
+
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><a href="../../../index.html">Home</a></li>
+				<li class="menuitem"><a href="../../../about.html">About</a></li>
+				<li class="menuitem"><a href="../../../contact.html">Contact</a></li>
+			</ul>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
+			<nav id="leftmenu">
+				<h3>Links</h3>
+				<ul>
+					<li><a href="../../agile/index.html">Agile Methodologies</a></li>
+					<li><a href="../../cloud/index.html">Cloud Computing</a></li>
+					<li><a href="../../corporate/index.html">Corporate
+							Training</a></li>
+					<li><a href="../../blog/index.html">Blog</a></li>
+					<li><a href="../../other/index.html">Others</a></li>
+				</ul>
+
+				<div>
+					<br> <br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
+			</nav>
+
+		</aside>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+
+			<span style="float: right;"><a href="chengprof201to400.html">[201~400]</a></span>
+			<br>
+
+			<h3>CHN to ENG Professional[1~200]</h3>
+
+
+			<table id="tableData" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>中文</th>
+						<th>拼音</th>
+						<th>English</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>旁观者</td>
+						<td>PangGuanZhe</td>
+						<td>By standers</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>无辜</td>
+						<td>WuGu</td>
+						<td>Innocent</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>杀害</td>
+						<td>ShaHai</td>
+						<td>To kill</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>炸弹</td>
+						<td>ZhaDan</td>
+						<td>Bomb</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>身亡</td>
+						<td>ShenWang</td>
+						<td>Died</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>士兵</td>
+						<td>ShiBing</td>
+						<td>Soldier</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>天文学</td>
+						<td>TianWenXue</td>
+						<td>Astronomy</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>大爆炸</td>
+						<td>DaBaoZha</td>
+						<td>Big Bang</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>爆炸</td>
+						<td>BaoZha</td>
+						<td>Detonate</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>垃圾食物</td>
+						<td>LaJiShiWu</td>
+						<td>Junk Food</td>
+					</tr>
+					<tr>
+						<td>11</td>
+						<td>热量</td>
+						<td>ReLiang</td>
+						<td>Calorie</td>
+					</tr>
+					<tr>
+						<td>12</td>
+						<td>汽水</td>
+						<td>QiShui</td>
+						<td>Fizzy Drink</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>炸鸡</td>
+						<td>ZhaJi</td>
+						<td>Fried Chicken</td>
+					</tr>
+					<tr>
+						<td>14</td>
+						<td>洋芋片</td>
+						<td>YangYuPian</td>
+						<td>Crisp</td>
+					</tr>
+					<tr>
+						<td>15</td>
+						<td>曾</td>
+						<td>Ceng</td>
+						<td>Once</td>
+					</tr>
+					<tr>
+						<td>16</td>
+						<td>文章</td>
+						<td>WenZhang</td>
+						<td>Article</td>
+					</tr>
+					<tr>
+						<td>17</td>
+						<td>扁</td>
+						<td>Pian</td>
+						<td>Measure word</td>
+					</tr>
+					<tr>
+						<td>18</td>
+						<td>年龄</td>
+						<td>NianLing</td>
+						<td>Age</td>
+					</tr>
+					<tr>
+						<td>19</td>
+						<td>我病得很严重。</td>
+						<td></td>
+						<td>Serious</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>善美</td>
+						<td>ShanMei</td>
+						<td>Satisfactory</td>
+					</tr>
+					<tr>
+						<td>21</td>
+						<td>打断</td>
+						<td>DaDuan</td>
+						<td>Interrupt, Break</td>
+					</tr>
+					<tr>
+						<td>22</td>
+						<td>闹钟大响</td>
+						<td>NaoZhong~</td>
+						<td>Alarm</td>
+					</tr>
+					<tr>
+						<td>23</td>
+						<td>段落</td>
+						<td>DuanLuo</td>
+						<td>Paragraph</td>
+					</tr>
+					<tr>
+						<td>24</td>
+						<td>粘贴</td>
+						<td>ZhanTie</td>
+						<td>Paste</td>
+					</tr>
+					<tr>
+						<td>25</td>
+						<td>剪切</td>
+						<td>JianQie</td>
+						<td>Cut</td>
+					</tr>
+					<tr>
+						<td>26</td>
+						<td>吵架</td>
+						<td>ChaoJia</td>
+						<td>Quarrel</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>往来</td>
+						<td>WangLai</td>
+						<td>Dealing</td>
+					</tr>
+					<tr>
+						<td>28</td>
+						<td>贸易</td>
+						<td>MaoYi</td>
+						<td>Trade</td>
+					</tr>
+					<tr>
+						<td>29</td>
+						<td>相比</td>
+						<td>XiangBi</td>
+						<td>Compare to</td>
+					</tr>
+					<tr>
+						<td>30</td>
+						<td>兴奋</td>
+						<td>XingFen</td>
+						<td>Excited</td>
+					</tr>
+					<tr>
+						<td>31</td>
+						<td>与众不同</td>
+						<td>YuZhongBuTong</td>
+						<td>Extra-ordinary, Stand out from mass</td>
+					</tr>
+					<tr>
+						<td>32</td>
+						<td>与其</td>
+						<td>YuQi</td>
+						<td>Rather than</td>
+					</tr>
+					<tr>
+						<td>33</td>
+						<td>击中</td>
+						<td>JiZhong</td>
+						<td>Strike, hit</td>
+					</tr>
+					<tr>
+						<td>34</td>
+						<td>闪电</td>
+						<td>ShanDian</td>
+						<td>Lightning</td>
+					</tr>
+					<tr>
+						<td>35</td>
+						<td>爬山</td>
+						<td>PaShan</td>
+						<td>Climb mountain</td>
+					</tr>
+					<tr>
+						<td>36</td>
+						<td>棵</td>
+						<td>Ke</td>
+						<td>Measure word for tree</td>
+					</tr>
+					<tr>
+						<td>37</td>
+						<td>药草</td>
+						<td>YaoCao</td>
+						<td>Herb Medicine</td>
+					</tr>
+					<tr>
+						<td>38</td>
+						<td>除草剂</td>
+						<td>ChuCaoJi</td>
+						<td>Lawn Mower</td>
+					</tr>
+					<tr>
+						<td>39</td>
+						<td>小麦草</td>
+						<td>XiaoMaiCao</td>
+						<td>Wheat grass</td>
+					</tr>
+					<tr>
+						<td>40</td>
+						<td>醒来</td>
+						<td>XingLai</td>
+						<td>Wake up</td>
+					</tr>
+					<tr>
+						<td>41</td>
+						<td>刺激</td>
+						<td>CiJi</td>
+						<td>Exciting</td>
+					</tr>
+					<tr>
+						<td>42</td>
+						<td>哲学</td>
+						<td>ZheXue</td>
+						<td>Philosophy</td>
+					</tr>
+					<tr>
+						<td>43</td>
+						<td>视为</td>
+						<td>ShiWei</td>
+						<td>View</td>
+					</tr>
+					<tr>
+						<td>44</td>
+						<td>佛法</td>
+						<td>FoFa</td>
+						<td>Buddhism</td>
+					</tr>
+					<tr>
+						<td>45</td>
+						<td>信仰</td>
+						<td></td>
+						<td>Belief</td>
+					</tr>
+					<tr>
+						<td>46</td>
+						<td>种姓</td>
+						<td>ZhongXing</td>
+						<td>Caste</td>
+					</tr>
+					<tr>
+						<td>47</td>
+						<td>宗教</td>
+						<td>ZongJiao</td>
+						<td>Religion</td>
+					</tr>
+					<tr>
+						<td>48</td>
+						<td>不移</td>
+						<td></td>
+						<td>Immovable</td>
+					</tr>
+					<tr>
+						<td>49</td>
+						<td>上智</td>
+						<td></td>
+						<td>Most Wise</td>
+					</tr>
+					<tr>
+						<td>50</td>
+						<td>下愚</td>
+						<td>XiaYu</td>
+						<td>Stupid</td>
+					</tr>
+					<tr>
+						<td>51</td>
+						<td>频繁</td>
+						<td></td>
+						<td>Frequency</td>
+					</tr>
+					<tr>
+						<td>52</td>
+						<td>芳草</td>
+						<td>FangCao</td>
+						<td>Green grass</td>
+					</tr>
+					<tr>
+						<td>53</td>
+						<td>草莓</td>
+						<td></td>
+						<td>Strawberry</td>
+					</tr>
+					<tr>
+						<td>54</td>
+						<td>草原</td>
+						<td></td>
+						<td>Grassland</td>
+					</tr>
+					<tr>
+						<td>55</td>
+						<td>草地</td>
+						<td></td>
+						<td>Lawn</td>
+					</tr>
+					<tr>
+						<td>56</td>
+						<td>谈恋爱</td>
+						<td></td>
+						<td>To be in love</td>
+					</tr>
+					<tr>
+						<td>57</td>
+						<td>谈判/洽谈</td>
+						<td>TanPan/QiaTan</td>
+						<td>Negotiate</td>
+					</tr>
+					<tr>
+						<td>58</td>
+						<td>侃侃而谈</td>
+						<td>KanKanErTan</td>
+						<td>Speak with assurance</td>
+					</tr>
+					<tr>
+						<td>59</td>
+						<td>交谈/谈论</td>
+						<td></td>
+						<td>Converse/Talk about</td>
+					</tr>
+					<tr>
+						<td>60</td>
+						<td>我们待会再来谈这件事</td>
+						<td>DaiHui</td>
+						<td>Later</td>
+					</tr>
+					<tr>
+						<td>61</td>
+						<td>摩托车</td>
+						<td>MoTuoChe</td>
+						<td>Motor bike</td>
+					</tr>
+					<tr>
+						<td>62</td>
+						<td>哭笑不得</td>
+						<td>KuXiaoBuDe</td>
+						<td>Not to know whether to laugh or cry</td>
+					</tr>
+					<tr>
+						<td>63</td>
+						<td>假哭</td>
+						<td>JiaKu</td>
+						<td>Crocodile Tears</td>
+					</tr>
+					<tr>
+						<td>64</td>
+						<td>计程车</td>
+						<td>JiChengChe</td>
+						<td>Taxi</td>
+					</tr>
+					<tr>
+						<td>65</td>
+						<td>卫星导航系统</td>
+						<td>~DaoHang~</td>
+						<td>Satellite navigation system</td>
+					</tr>
+					<tr>
+						<td>66</td>
+						<td>中古车</td>
+						<td></td>
+						<td>Used car</td>
+					</tr>
+					<tr>
+						<td>67</td>
+						<td>安全帽</td>
+						<td>~Mao</td>
+						<td>Helmet</td>
+					</tr>
+					<tr>
+						<td>68</td>
+						<td>附送</td>
+						<td>FuSong</td>
+						<td>Get something free</td>
+					</tr>
+					<tr>
+						<td>69</td>
+						<td>脚踏车(自行车）</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>70</td>
+						<td>自拍车</td>
+						<td>ZiPaiChe</td>
+						<td>Automatic car</td>
+					</tr>
+					<tr>
+						<td>71</td>
+						<td>山谷</td>
+						<td>ShanGu</td>
+						<td>Valley</td>
+					</tr>
+					<tr>
+						<td>72</td>
+						<td>一辆游览车</td>
+						<td></td>
+						<td>Sightseeing bus</td>
+					</tr>
+					<tr>
+						<td>73</td>
+						<td>拜访</td>
+						<td>BaiFang</td>
+						<td>To visit</td>
+					</tr>
+					<tr>
+						<td>74</td>
+						<td>戒指</td>
+						<td>JieZhi</td>
+						<td>Ring</td>
+					</tr>
+					<tr>
+						<td>75</td>
+						<td>这枚</td>
+						<td>~Mei</td>
+						<td>Measure word for coin</td>
+					</tr>
+					<tr>
+						<td>76</td>
+						<td>山丘</td>
+						<td>~Qiu</td>
+						<td>Hill</td>
+					</tr>
+					<tr>
+						<td>77</td>
+						<td>坐落</td>
+						<td>ZuoLuo</td>
+						<td>Situated, Located</td>
+					</tr>
+					<tr>
+						<td>78</td>
+						<td>牙齿</td>
+						<td>YaChi</td>
+						<td>Teeth</td>
+					</tr>
+					<tr>
+						<td>79</td>
+						<td>刚刚拔了一颗</td>
+						<td>Ba~Ke</td>
+						<td>Pull out/Teeth</td>
+					</tr>
+					<tr>
+						<td>80</td>
+						<td>注意到</td>
+						<td>ZhuYiDao</td>
+						<td>Noticed</td>
+					</tr>
+					<tr>
+						<td>81</td>
+						<td>瘦下来</td>
+						<td>ShouXiaLai</td>
+						<td>Slim down</td>
+					</tr>
+					<tr>
+						<td>82</td>
+						<td>手指</td>
+						<td>ShouZhi</td>
+						<td>Finger</td>
+					</tr>
+					<tr>
+						<td>83</td>
+						<td>舔</td>
+						<td>Tian</td>
+						<td>Lick</td>
+					</tr>
+					<tr>
+						<td>84</td>
+						<td>小猫</td>
+						<td></td>
+						<td>Cat</td>
+					</tr>
+					<tr>
+						<td>85</td>
+						<td>尊敬</td>
+						<td>ZunJing</td>
+						<td>Respect</td>
+					</tr>
+					<tr>
+						<td>86</td>
+						<td>拜托</td>
+						<td>BaiTuo</td>
+						<td>Please</td>
+					</tr>
+					<tr>
+						<td>87</td>
+						<td>悲伤</td>
+						<td>BeiShang</td>
+						<td>Sad</td>
+					</tr>
+					<tr>
+						<td>88</td>
+						<td>许多</td>
+						<td></td>
+						<td>Many</td>
+					</tr>
+					<tr>
+						<td>89</td>
+						<td>宣称</td>
+						<td>XuanCheng</td>
+						<td>Claim, To assert</td>
+					</tr>
+					<tr>
+						<td>90</td>
+						<td>阻止</td>
+						<td>ZuZhi</td>
+						<td>Prevent</td>
+					</tr>
+					<tr>
+						<td>91</td>
+						<td>企图</td>
+						<td>QiTu</td>
+						<td>Attempt</td>
+					</tr>
+					<tr>
+						<td>92</td>
+						<td>暗杀</td>
+						<td>AnSha</td>
+						<td>Assasinate</td>
+					</tr>
+					<tr>
+						<td>93</td>
+						<td>造假</td>
+						<td>ZaoJia</td>
+						<td>Fake</td>
+					</tr>
+					<tr>
+						<td>94</td>
+						<td>选票</td>
+						<td></td>
+						<td>Ballot</td>
+					</tr>
+					<tr>
+						<td>95</td>
+						<td>总理</td>
+						<td></td>
+						<td>PM</td>
+					</tr>
+					<tr>
+						<td>96</td>
+						<td>当选/胜选</td>
+						<td>DangXuan/Sheng~</td>
+						<td>Win an election</td>
+					</tr>
+					<tr>
+						<td>97</td>
+						<td>下台</td>
+						<td></td>
+						<td>Step down</td>
+					</tr>
+					<tr>
+						<td>98</td>
+						<td>拒绝</td>
+						<td>JuJue</td>
+						<td>Decline</td>
+					</tr>
+					<tr>
+						<td>99</td>
+						<td>总统</td>
+						<td></td>
+						<td>President/CEO</td>
+					</tr>
+					<tr>
+						<td>100</td>
+						<td>竞选</td>
+						<td>JingXuan</td>
+						<td>Take part in election</td>
+					</tr>
+					<tr>
+						<td>101</td>
+						<td>宣布</td>
+						<td>XuanBu</td>
+						<td>To announce, Declare</td>
+					</tr>
+					<tr>
+						<td>102</td>
+						<td>死掉,拿掉</td>
+						<td></td>
+						<td>Die, Take off, get rid off, abort</td>
+					</tr>
+					<tr>
+						<td>103</td>
+						<td>卖掉, 掉头</td>
+						<td></td>
+						<td>Sell out/ Turn around</td>
+					</tr>
+					<tr>
+						<td>104</td>
+						<td>关掉, 输掉</td>
+						<td></td>
+						<td>Turn off/ to Lose</td>
+					</tr>
+					<tr>
+						<td>105</td>
+						<td>辞掉</td>
+						<td></td>
+						<td>Quit the job</td>
+					</tr>
+					<tr>
+						<td>106</td>
+						<td>跑掉，拔掉</td>
+						<td></td>
+						<td>Run away/ Pull out</td>
+					</tr>
+					<tr>
+						<td>107</td>
+						<td>坏掉</td>
+						<td>Huai Diao</td>
+						<td>Broken, Malfunction</td>
+					</tr>
+					<tr>
+						<td>108</td>
+						<td>锁匠</td>
+						<td>SuoJiang</td>
+						<td>Key Opener</td>
+					</tr>
+					<tr>
+						<td>109</td>
+						<td>钥匙</td>
+						<td>YaoShi</td>
+						<td>Key</td>
+					</tr>
+					<tr>
+						<td>110</td>
+						<td>必须清掉</td>
+						<td>QingDiao</td>
+						<td>Clear off</td>
+					</tr>
+					<tr>
+						<td>111</td>
+						<td>跑道上的积雪</td>
+						<td>Ji</td>
+						<td>Accumulated</td>
+					</tr>
+					<tr>
+						<td>112</td>
+						<td>刺激</td>
+						<td>CiJi</td>
+						<td>Exciting</td>
+					</tr>
+					<tr>
+						<td>113</td>
+						<td>到底</td>
+						<td></td>
+						<td>Finally</td>
+					</tr>
+					<tr>
+						<td>114</td>
+						<td>篮球</td>
+						<td></td>
+						<td>Basket Ball</td>
+					</tr>
+					<tr>
+						<td>115</td>
+						<td>纸杯蛋糕</td>
+						<td></td>
+						<td>Cup Cake</td>
+					</tr>
+					<tr>
+						<td>116</td>
+						<td>烤蛋糕</td>
+						<td></td>
+						<td>Bake a cake</td>
+					</tr>
+					<tr>
+						<td>117</td>
+						<td>自制</td>
+						<td></td>
+						<td>Self made, home made</td>
+					</tr>
+					<tr>
+						<td>118</td>
+						<td>看起来</td>
+						<td></td>
+						<td>Look</td>
+					</tr>
+					<tr>
+						<td>119</td>
+						<td>游泳池</td>
+						<td></td>
+						<td>Swimming Pool</td>
+					</tr>
+					<tr>
+						<td>120</td>
+						<td>夏天</td>
+						<td></td>
+						<td>Summer</td>
+					</tr>
+					<tr>
+						<td>121</td>
+						<td>怀念</td>
+						<td></td>
+						<td>Cherish the memory of</td>
+					</tr>
+					<tr>
+						<td>122</td>
+						<td>童年</td>
+						<td></td>
+						<td>Childhood</td>
+					</tr>
+					<tr>
+						<td>123</td>
+						<td>回忆</td>
+						<td></td>
+						<td>Recollection of memory</td>
+					</tr>
+					<tr>
+						<td>124</td>
+						<td>亲切，一切</td>
+						<td></td>
+						<td>Friendly, Everything</td>
+					</tr>
+					<tr>
+						<td>125</td>
+						<td>迫切，关切</td>
+						<td></td>
+						<td>Urgent, Deeply concerned</td>
+					</tr>
+					<tr>
+						<td>126</td>
+						<td>贴切，确切</td>
+						<td>Tie Qie, QueQie</td>
+						<td>Close/Proper, Exact/Precise</td>
+					</tr>
+					<tr>
+						<td>127</td>
+						<td>切</td>
+						<td></td>
+						<td>Close to</td>
+					</tr>
+					<tr>
+						<td>128</td>
+						<td>笨手笨脚</td>
+						<td>BenShouBenJiao</td>
+						<td>Clumsy</td>
+					</tr>
+					<tr>
+						<td>129</td>
+						<td>伦敦</td>
+						<td></td>
+						<td>London</td>
+					</tr>
+					<tr>
+						<td>130</td>
+						<td>渴望</td>
+						<td>KeWang</td>
+						<td>Crave, yearn for</td>
+					</tr>
+					<tr>
+						<td>131</td>
+						<td>观光签证</td>
+						<td></td>
+						<td>Tourist Visa</td>
+					</tr>
+					<tr>
+						<td>132</td>
+						<td>签证过期了</td>
+						<td></td>
+						<td>Visa Expired</td>
+					</tr>
+					<tr>
+						<td>133</td>
+						<td>烫衬衫</td>
+						<td>TangChenShan</td>
+						<td>Iron the shirt</td>
+					</tr>
+					<tr>
+						<td>134</td>
+						<td>暂定</td>
+						<td>ZanDing</td>
+						<td>Arrange for the time being</td>
+					</tr>
+					<tr>
+						<td>135</td>
+						<td>特殊</td>
+						<td>TeShu</td>
+						<td>Particular, Exceptional</td>
+					</tr>
+					<tr>
+						<td>136</td>
+						<td>解决办法</td>
+						<td></td>
+						<td>Solve the matter</td>
+					</tr>
+					<tr>
+						<td>137</td>
+						<td>注销</td>
+						<td>ZhuXiao</td>
+						<td>Log off</td>
+					</tr>
+					<tr>
+						<td>138</td>
+						<td>取得</td>
+						<td>QuDe</td>
+						<td>Acquire</td>
+					</tr>
+					<tr>
+						<td>139</td>
+						<td>尽量</td>
+						<td></td>
+						<td>Try Best</td>
+					</tr>
+					<tr>
+						<td>140</td>
+						<td>不要收回</td>
+						<td></td>
+						<td>No Need to return</td>
+					</tr>
+					<tr>
+						<td>141</td>
+						<td>交给</td>
+						<td></td>
+						<td>Abondon</td>
+					</tr>
+					<tr>
+						<td>142</td>
+						<td>协调</td>
+						<td>XieTiao</td>
+						<td>Coordinate</td>
+					</tr>
+					<tr>
+						<td>143</td>
+						<td>寄回</td>
+						<td>JiHui</td>
+						<td>Send back</td>
+					</tr>
+					<tr>
+						<td>144</td>
+						<td>事宜</td>
+						<td></td>
+						<td>Matter concerned</td>
+					</tr>
+					<tr>
+						<td>145</td>
+						<td>辞职</td>
+						<td>CiZhi</td>
+						<td>Resignation</td>
+					</tr>
+					<tr>
+						<td>146</td>
+						<td>以便</td>
+						<td>YiBian</td>
+						<td>So that, In order to</td>
+					</tr>
+					<tr>
+						<td>147</td>
+						<td>盼复</td>
+						<td></td>
+						<td>Looking forward for reply</td>
+					</tr>
+					<tr>
+						<td>148</td>
+						<td>调整</td>
+						<td></td>
+						<td>Adjustment</td>
+					</tr>
+					<tr>
+						<td>149</td>
+						<td>延迟</td>
+						<td></td>
+						<td>Delay</td>
+					</tr>
+					<tr>
+						<td>150</td>
+						<td>适当</td>
+						<td></td>
+						<td>Appropriate</td>
+					</tr>
+					<tr>
+						<td>151</td>
+						<td>休假</td>
+						<td></td>
+						<td>Holiday</td>
+					</tr>
+					<tr>
+						<td>152</td>
+						<td>批准</td>
+						<td>PiZhun</td>
+						<td>Approve/Authorize</td>
+					</tr>
+					<tr>
+						<td>153</td>
+						<td>报到</td>
+						<td></td>
+						<td>Join</td>
+					</tr>
+					<tr>
+						<td>154</td>
+						<td>具体</td>
+						<td></td>
+						<td>Specific</td>
+					</tr>
+					<tr>
+						<td>155</td>
+						<td>预约</td>
+						<td></td>
+						<td>Appointment</td>
+					</tr>
+					<tr>
+						<td>156</td>
+						<td>申请</td>
+						<td></td>
+						<td>Apply</td>
+					</tr>
+					<tr>
+						<td>157</td>
+						<td>继续</td>
+						<td></td>
+						<td>Continue</td>
+					</tr>
+					<tr>
+						<td>158</td>
+						<td>将不得</td>
+						<td>JiangBuDei</td>
+						<td>Will not</td>
+					</tr>
+					<tr>
+						<td>159</td>
+						<td>组织</td>
+						<td></td>
+						<td>Organization</td>
+					</tr>
+					<tr>
+						<td>160</td>
+						<td>一旦</td>
+						<td></td>
+						<td>Once</td>
+					</tr>
+					<tr>
+						<td>161</td>
+						<td>邀请</td>
+						<td></td>
+						<td>Invitation</td>
+					</tr>
+					<tr>
+						<td>162</td>
+						<td>愿意</td>
+						<td></td>
+						<td>Be Willing to</td>
+					</tr>
+					<tr>
+						<td>163</td>
+						<td>并</td>
+						<td></td>
+						<td>And</td>
+					</tr>
+					<tr>
+						<td>164</td>
+						<td>异议</td>
+						<td>YiYi</td>
+						<td>Objection</td>
+					</tr>
+					<tr>
+						<td>165</td>
+						<td>上述</td>
+						<td></td>
+						<td>Above mentioned</td>
+					</tr>
+					<tr>
+						<td>166</td>
+						<td>针对</td>
+						<td>ZhenDui</td>
+						<td>Point to</td>
+					</tr>
+					<tr>
+						<td>167</td>
+						<td>等于</td>
+						<td></td>
+						<td>Equal To</td>
+					</tr>
+					<tr>
+						<td>168</td>
+						<td>约</td>
+						<td>Yue</td>
+						<td>Almost</td>
+					</tr>
+					<tr>
+						<td>169</td>
+						<td>年终奖</td>
+						<td>NianZhongJiang</td>
+						<td>Annual Bonus</td>
+					</tr>
+					<tr>
+						<td>170</td>
+						<td>缴纳</td>
+						<td>JiaoNa</td>
+						<td>Pay</td>
+					</tr>
+					<tr>
+						<td>171</td>
+						<td>转正</td>
+						<td></td>
+						<td>Become regular</td>
+					</tr>
+					<tr>
+						<td>172</td>
+						<td>万可</td>
+						<td></td>
+						<td>Then, Can</td>
+					</tr>
+					<tr>
+						<td>173</td>
+						<td>合格</td>
+						<td>HeGe</td>
+						<td>Qualified</td>
+					</tr>
+					<tr>
+						<td>174</td>
+						<td>考核</td>
+						<td>KaoHe</td>
+						<td>Examine</td>
+					</tr>
+					<tr>
+						<td>175</td>
+						<td>经过</td>
+						<td>Jing Guo</td>
+						<td>Pass</td>
+					</tr>
+					<tr>
+						<td>176</td>
+						<td>正式期</td>
+						<td>Zheng Shi Qi</td>
+						<td>Formal Period</td>
+					</tr>
+					<tr>
+						<td>177</td>
+						<td>该</td>
+						<td>Gai</td>
+						<td>This</td>
+					</tr>
+					<tr>
+						<td>178</td>
+						<td>发放</td>
+						<td>FaFang</td>
+						<td>Provide, Grant</td>
+					</tr>
+					<tr>
+						<td>179</td>
+						<td>则</td>
+						<td>Ze</td>
+						<td>Then</td>
+					</tr>
+					<tr>
+						<td>180</td>
+						<td>利用</td>
+						<td>LiYong</td>
+						<td>Use</td>
+					</tr>
+					<tr>
+						<td>181</td>
+						<td>补贴</td>
+						<td>BuTie</td>
+						<td>Subsidy</td>
+					</tr>
+					<tr>
+						<td>182</td>
+						<td>个人所得税</td>
+						<td>GeRenSuoDeShui</td>
+						<td>Income tax for individuals</td>
+					</tr>
+					<tr>
+						<td>183</td>
+						<td>缴纳</td>
+						<td>JiaoNa</td>
+						<td>Pay</td>
+					</tr>
+					<tr>
+						<td>184</td>
+						<td>试用期</td>
+						<td>ShiYongQi</td>
+						<td>Probation Period</td>
+					</tr>
+					<tr>
+						<td>185</td>
+						<td>如下</td>
+						<td>RuXia</td>
+						<td>Following</td>
+					</tr>
+					<tr>
+						<td>186</td>
+						<td>入职</td>
+						<td>RuZhi</td>
+						<td>Join the Job</td>
+					</tr>
+					<tr>
+						<td>187</td>
+						<td>准确的</td>
+						<td>ZhunQueDe</td>
+						<td>Exact/Accurate</td>
+					</tr>
+					<tr>
+						<td>188</td>
+						<td>来访</td>
+						<td>LaiFang</td>
+						<td>Visiting</td>
+					</tr>
+					<tr>
+						<td>189</td>
+						<td>进一步的</td>
+						<td>JinYiBuDe</td>
+						<td>Further</td>
+					</tr>
+					<tr>
+						<td>190</td>
+						<td>预期</td>
+						<td>YuQi</td>
+						<td>Anticipate</td>
+					</tr>
+					<tr>
+						<td>191</td>
+						<td>感激</td>
+						<td>GanJi</td>
+						<td>Appreciate</td>
+					</tr>
+					<tr>
+						<td>192</td>
+						<td>凭票</td>
+						<td>PingPiao</td>
+						<td>use ticket</td>
+					</tr>
+					<tr>
+						<td>193</td>
+						<td>诚实</td>
+						<td>ChengShi</td>
+						<td>Honest</td>
+					</tr>
+					<tr>
+						<td>194</td>
+						<td>分享</td>
+						<td>FenXiang</td>
+						<td>Share</td>
+					</tr>
+					<tr>
+						<td>195</td>
+						<td>寄</td>
+						<td>Ji</td>
+						<td>Send/Post</td>
+					</tr>
+					<tr>
+						<td>196</td>
+						<td>机构</td>
+						<td>JiGou</td>
+						<td>Institution/Organization</td>
+					</tr>
+					<tr>
+						<td>197</td>
+						<td>提议</td>
+						<td>TiYi</td>
+						<td>Propose/Suggest</td>
+					</tr>
+					<tr>
+						<td>198</td>
+						<td>手续</td>
+						<td>ShouXu</td>
+						<td>Procedure</td>
+					</tr>
+					<tr>
+						<td>199</td>
+						<td>毕竟</td>
+						<td>BiJing</td>
+						<td>After all/Finally</td>
+					</tr>
+					<tr>
+						<td>200</td>
+						<td>冲突</td>
+						<td>ChongTu</td>
+						<td>Conflict</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<br> <br> <span style="float: right;"><a
+				href="chengprof201to400.html">[201~400]</a></span>
+
+		</section>
+
+
+	</div>
+	<!--container end-->
+	<div style=""></div>
+	<footer>
+		<span style="color: red;">NO</span> Copyright &copy; 2016,
+		vnvinfo.net!
+	</footer>
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="paging.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#tableData').paging({
+				limit : 20
+			});
+		});
+	</script>
+</body>
+</html>

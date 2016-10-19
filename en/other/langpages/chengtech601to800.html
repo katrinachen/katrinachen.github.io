@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../css/style.css" type="text/css">
+<title>vnvinfo.net-blog-home</title>
+<script src="../../../js/script.js"></script>
+<!-- Additional Settings here -->
+<meta name="viewport" content="width=device-width">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+
+<!-- <link rel="stylesheet" -->
+<!-- 	href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+<style type="text/css">
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #4a4a4d;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th, td {
+	padding: 0.25rem;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+	background: yellow;
+}
+
+th:first-child {
+	border-top-left-radius: 5px;
+	text-align: left;
+}
+
+th:last-child {
+	border-top-right-radius: 5px;
+}
+
+thead {
+	background: linear-gradient(#49708f, #293f50);
+	background: #395870;
+	color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.paging-nav, #tableData {
+	width: 400px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+</style>
+<!-- Additional Settings ends here -->
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>
+				<img height="60" width="200" alt="logo"
+					src="../../../images/logo.jpg">
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
+		</header>
+
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><a href="../../../index.html">Home</a></li>
+				<li class="menuitem"><a href="../../../about.html">About</a></li>
+				<li class="menuitem"><a href="../../../contact.html">Contact</a></li>
+			</ul>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
+			<nav id="leftmenu">
+				<h3>Links</h3>
+				<ul>
+					<li><a href="../../agile/index.html">Agile Methodologies</a></li>
+					<li><a href="../../cloud/index.html">Cloud Computing</a></li>
+					<li><a href="../../corporate/index.html">Corporate
+							Training</a></li>
+					<li><a href="../../blog/index.html">Blog</a></li>
+					<li><a href="../../other/index.html">Others</a></li>
+				</ul>
+
+				<div>
+					<br> <br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
+			</nav>
+
+		</aside>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+			<span style="float: left;"><a href="chengtech401to600.html">[401~600]</a></span>
+			<span style="float: right;"><a href="chengtech801to1k.html">[801~1000]</a></span>
+			<br>
+
+			<h3>CHN to ENG Technical [601~800]</h3>
+			<br>
+			<table id="tableData" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>ENG</th>
+						<th>CH</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>601</td>
+						<td>data type 数据类型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>602</td>
+						<td>Data View 数据视图</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>603</td>
+						<td>data-aware 数据识别</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>604</td>
+						<td>database class 数据库类</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>605</td>
+						<td>database connection 数据库连接</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>606</td>
+						<td>Database Designer 数据库设计器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>607</td>
+						<td>database diagram 数据库关系图</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>608</td>
+						<td>database engine 数据库引擎</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>609</td>
+						<td>database management system 数据库管理系统</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>610</td>
+						<td>database object 数据库对象</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>611</td>
+						<td>Database Project Items 数据库项目项</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>612</td>
+						<td>database schema 数据库架构</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>613</td>
+						<td>datagram 数据报</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>614</td>
+						<td>DataSet DataSet(注:用作关键字时)；数据集(注:用于一般描述时)</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>615</td>
+						<td>DataSource DataSource（注:用作关键字时）；数据源（注:用于一般描述时）</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>616</td>
+						<td>DataTable DataTable（注:用作关键字时）；数据表（注:用于一般描述时）</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>617</td>
+						<td>date and time picker 日期和时间选择器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>618</td>
+						<td>Daylight Saving Time 夏时制</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>619</td>
+						<td>DB Common Sourcing Module UI Resources 数据库公共源模块用户界面资源</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>620</td>
+						<td>DB Project Connection 数据库项目连接</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>621</td>
+						<td>DDE conversation DDE 对话</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>622</td>
+						<td>dead-letter 死信</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>623</td>
+						<td>deallocate 解除分配</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>624</td>
+						<td>debug 调试</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>625</td>
+						<td>debug build 调试版本</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>626</td>
+						<td>Debug configuration “调试”配置</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>627</td>
+						<td>debug heap 调试堆</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>628</td>
+						<td>debug mode 调试模式</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>629</td>
+						<td>debug monitor 调试监视器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>630</td>
+						<td>debugger 调试程序</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>631</td>
+						<td>Decimal key 句点键</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>632</td>
+						<td>decimal separator 小数点分隔符</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>633</td>
+						<td>declaration 声明</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>634</td>
+						<td>declarator 声明符</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>635</td>
+						<td>decoder 解码器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>636</td>
+						<td>decorated name 修饰名</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>637</td>
+						<td>Deep Copy 深层复制</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>638</td>
+						<td>default 默认</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>639</td>
+						<td>default action 默认操作</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>640</td>
+						<td>default behavior 默认行为</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>641</td>
+						<td>default case-insensitive hash code provider
+							不区分大小写的默认哈希代码提供程序</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>642</td>
+						<td>default constructor 默认构造函数</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>643</td>
+						<td>default hash code provider 默认哈希代码提供程序</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>644</td>
+						<td>default implementation 默认实现</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>645</td>
+						<td>default initial capacity 默认初始容量</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>646</td>
+						<td>default marshalling 默认封送处理</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>647</td>
+						<td>default maximum load factor 默认最大加载因子</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>648</td>
+						<td>default property page 默认属性页</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>649</td>
+						<td>Defect Report 缺陷报告</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>650</td>
+						<td>definition 定义</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>651</td>
+						<td>deformatter 反格式化程序</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>652</td>
+						<td>degrade 降级</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>653</td>
+						<td>degrade gracefully 完全降低</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>654</td>
+						<td>degrade performance 降低性能</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>655</td>
+						<td>delay-loaded 延迟加载</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>656</td>
+						<td>delegate 委托</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>657</td>
+						<td>delete operator 删除运算符</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>658</td>
+						<td>delineated square 画有边线的方形</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>659</td>
+						<td>denial of service attack 拒绝服务攻击</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>660</td>
+						<td>Dep. assembly nodes 部署程序集节点</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>661</td>
+						<td>Dep. MSM nodes 部署 MSM 节点</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>662</td>
+						<td>dependency 依赖项</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>663</td>
+						<td>dependency file 依赖项文件</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>664</td>
+						<td>dependent file 依赖文件</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>665</td>
+						<td>dependent project 依赖项目</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>666</td>
+						<td>deploy 部署</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>667</td>
+						<td>Deployment Editors 部署编辑器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>668</td>
+						<td>Deployment Wizard 部署向导</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>669</td>
+						<td>deprecate 否决</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>670</td>
+						<td>deque 双端队列</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>671</td>
+						<td>derive 派生</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>672</td>
+						<td>derived 导出(的)；派生(的)</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>673</td>
+						<td>derived class 派生类</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>674</td>
+						<td>derived field 导出字段</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>675</td>
+						<td>derived type 派生类型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>676</td>
+						<td>Description 说明</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>677</td>
+						<td>descriptor 描述符</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>678</td>
+						<td>deserialize 反序列化</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>679</td>
+						<td>design 设计</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>680</td>
+						<td>design mode 设计模式</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>681</td>
+						<td>Design Surface File 设计图面文件</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>682</td>
+						<td>design time 设计时</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>683</td>
+						<td>design view 设计视图</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>684</td>
+						<td>designer 设计器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>685</td>
+						<td>designer host 设计器宿主</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>686</td>
+						<td>designer surface 设计器表面</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>687</td>
+						<td>designer window 设计器窗口</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>688</td>
+						<td>design-time 设计时</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>689</td>
+						<td>design-time instance 设计时实例</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>690</td>
+						<td>Design-Time-Only 仅用于设计时</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>691</td>
+						<td>destination application 目标应用程序</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>692</td>
+						<td>destination control 目标控件</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>693</td>
+						<td>destination device context 目标设备上下文</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>694</td>
+						<td>destination rectangle 目标矩形</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>695</td>
+						<td>destroy 损坏</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>696</td>
+						<td>destructor 析构函数</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>697</td>
+						<td>detect 检测</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>698</td>
+						<td>determine 确定</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>699</td>
+						<td>developer 开发人员</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>700</td>
+						<td>Developer edition 开发人员版</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>701</td>
+						<td>development environment 开发环境</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>702</td>
+						<td>device 设备</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>703</td>
+						<td>device context 设备上下文</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>704</td>
+						<td>device dependent 设备相关</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>705</td>
+						<td>Device Image 设备映像</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>706</td>
+						<td>DHTML Page designer DHTML 页设计器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>707</td>
+						<td>diagnostic message 诊断消息</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>708</td>
+						<td>Diagram 关系图</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>709</td>
+						<td>diagram pane 关系图窗格</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>710</td>
+						<td>Diagram Surface 关系图面</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>711</td>
+						<td>dialog class 对话框类</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>712</td>
+						<td>dialog control 对话框控件</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>713</td>
+						<td>Dialog Data Exchange 对话框数据交换</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>714</td>
+						<td>Dialog editor 对话框编辑器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>715</td>
+						<td>dialog template resource 对话框模板资源</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>716</td>
+						<td>dialog-based 基于对话框的</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>717</td>
+						<td>Diff-Merge 差异－合并</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>718</td>
+						<td>digest authentication 摘要式身份验证</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>719</td>
+						<td>dimensionality 维数</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>720</td>
+						<td>dimensions 尺寸；维数（注：指多个维度时）</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>721</td>
+						<td>dimmed appearance 浅灰色</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>722</td>
+						<td>directive 指令</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>723</td>
+						<td>directory 目录</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>724</td>
+						<td>disable 禁用</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>725</td>
+						<td>disassembly window 反汇编窗口</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>726</td>
+						<td>discussion list 讨论表</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>727</td>
+						<td>dispatch 调度</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>728</td>
+						<td>dispatch ID 调度 ID</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>729</td>
+						<td>dispatch interface 调度接口</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>730</td>
+						<td>dispatch map 调度映射</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>731</td>
+						<td>dispinterface 调度接口</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>732</td>
+						<td>dispose 处置</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>733</td>
+						<td>distribute 分布</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>734</td>
+						<td>Distributed Application 分布式应用程序</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>735</td>
+						<td>Distributed Component Object Model 分布式组件对象模型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>736</td>
+						<td>Doc Relative 与文档相关的</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>737</td>
+						<td>Dock 停靠</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>738</td>
+						<td>dockable 可停靠的</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>739</td>
+						<td>dockable toolbar 可停靠工具栏</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>740</td>
+						<td>document class 文档类</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>741</td>
+						<td>document containment 文档包容</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>742</td>
+						<td>document/view architecture 文档/视图结构</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>743</td>
+						<td>domain 域</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>744</td>
+						<td>dominant control 主导控件</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>745</td>
+						<td>double buffering 双缓冲</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>746</td>
+						<td>double-ended queue 双端队列</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>747</td>
+						<td>double-precision floating point number 双精度浮点数字</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>748</td>
+						<td>downcast 向下转换</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>749</td>
+						<td>downstream 下游</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>750</td>
+						<td>drive letter 驱动器号</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>751</td>
+						<td>drop shadow 投影</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>752</td>
+						<td>drop target 放置目标</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>753</td>
+						<td>dropdown 下拉</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>754</td>
+						<td>dropshadow 投影</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>755</td>
+						<td>dual interface 双重接口</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>756</td>
+						<td>dump 转储</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>757</td>
+						<td>Duplicate pound (""#"") characters 重复（“#”）字符</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>758</td>
+						<td>dynamic array 动态数组</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>759</td>
+						<td>dynamic assembly 动态程序集</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>760</td>
+						<td>dynamic binding 动态绑定</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>761</td>
+						<td>dynamic creation 动态创建</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>762</td>
+						<td>dynamic cursor 动态游标</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>763</td>
+						<td>Dynamic Discovery Document 动态发现文档</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>764</td>
+						<td>Dynamic HTML object model 动态 HTML 对象模型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>765</td>
+						<td>dynamic splitter window 动态拆分窗口</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>766</td>
+						<td>dynamic-link library 动态链接库</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>767</td>
+						<td>dynaset-type recordset 动态集类型记录集</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>768</td>
+						<td>earlier 以前</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>769</td>
+						<td>edit buffer 编辑缓冲区</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>770</td>
+						<td>edit control 编辑控件</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>771</td>
+						<td>edit mode 编辑模式</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>772</td>
+						<td>edit point 编辑点</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>773</td>
+						<td>Edition 版本</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>774</td>
+						<td>Elapsed Time 运行时间</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>775</td>
+						<td>element 元素</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>776</td>
+						<td>eliminate 消除</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>777</td>
+						<td>embed 嵌入</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>778</td>
+						<td>Emit 发出</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>779</td>
+						<td>Enabled 启用；有效的</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>780</td>
+						<td>encapsulate 封装</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>781</td>
+						<td>encapsulated interface pointer 封装接口指针</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>782</td>
+						<td>enclosing class 封闭类</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>783</td>
+						<td>enclosing type 封闭类型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>784</td>
+						<td>encompassed type 所含类型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>785</td>
+						<td>encompassing type 包含类型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>786</td>
+						<td>end 结束</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>787</td>
+						<td>ending point 结束点</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>788</td>
+						<td>endpoint 端点</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>789</td>
+						<td>engine 引擎</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>790</td>
+						<td>Enter Enter 键</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>791</td>
+						<td>Enterprise Edition 企业版</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>792</td>
+						<td>enterprise template 企业级模板</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>793</td>
+						<td>entity 实体</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>794</td>
+						<td>entry 项</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>795</td>
+						<td>entry point 入口点</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>796</td>
+						<td>enumerated type 枚举类型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>797</td>
+						<td>enumeration 枚举</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>798</td>
+						<td>enumerator 枚举器</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>799</td>
+						<td>enum-type 枚举类型</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>800</td>
+						<td>environment 环境</td>
+						<td></td>
+					</tr>
+				</tbody>
+				</table>
+				<br>
+				<br>
+				<span style="float: left;"><a href="chengtech401to600.html">[401~600]</a></span>
+				<span style="float: right;"><a href="chengtech801to1k.html">[801~1000]</a></span>
+
+				</section>
+
+
+				</div>
+				<!--container end-->
+				<div style=""></div>
+				<footer>
+					<span style="color: red;">NO</span> Copyright &copy; 2016,
+					vnvinfo.net!
+				</footer>
+				<script type="text/javascript"
+					src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+				<script
+					src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+				<script type="text/javascript" src="paging.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('#tableData').paging({
+							limit : 20
+						});
+					});
+				</script>
+</body>
+</html>

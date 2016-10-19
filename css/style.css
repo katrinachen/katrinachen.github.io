@@ -228,7 +228,11 @@ table.dev-table,table.dev-table tr,table.dev-table td,table.dev-table th{
 dev-table tr,table.dev-table td{
 	border-bottom: 1px dashed #000000;
 }
+.indexlist li {
 
+	margin: 10px 0;
+	
+	}
 footer{
 
 	height:30px;
@@ -239,7 +243,6 @@ footer{
   padding-top:5px;
   
   background-color: #efefef;
-  text-align: center;
-  	
+  text-align: center;  	
    
 }

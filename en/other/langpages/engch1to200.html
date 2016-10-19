@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../css/style.css" type="text/css">
+<title>vnvinfo.net-blog-home</title>
+<script src="../../../js/script.js"></script>
+<!-- Additional Settings here -->
+<meta name="viewport" content="width=device-width">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+
+<!-- <link rel="stylesheet" -->
+<!-- 	href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+<style type="text/css">
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #4a4a4d;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th, td {
+	padding: 0.25rem;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+	background: yellow;
+}
+
+th:first-child {
+	border-top-left-radius: 5px;
+	text-align: left;
+}
+
+th:last-child {
+	border-top-right-radius: 5px;
+}
+
+thead {
+	background: linear-gradient(#49708f, #293f50);
+	background: #395870;
+	color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.paging-nav, #tableData {
+	width: 400px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+</style>
+<!-- Additional Settings ends here -->
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>
+			<img height="60" width="200" alt="logo" src="../../../images/logo.jpg">
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
+		</header>
+
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><a href="../../../index.html">Home</a></li>
+				<li class="menuitem"><a href="../../../about.html">About</a></li>
+				<li class="menuitem"><a href="../../../contact.html">Contact</a></li>
+			</ul>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
+			<nav id="leftmenu">
+				<h3>Links</h3>
+				<ul>
+					<li><a href="../../agile/index.html">Agile Methodologies</a></li>
+					<li><a href="../../cloud/index.html">Cloud Computing</a></li>
+					<li><a href="../../corporate/index.html">Corporate Training</a></li>
+					<li><a href="../../blog/index.html">Blog</a></li>
+					<li><a href="../../other/index.html">Others</a></li>
+				</ul>
+
+				<div>
+					<br> <br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
+			</nav>
+
+		</aside>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+
+			
+			<span style="float: right;"><a href="engch201to400.html">[201~400]</a></span>
+			<br>
+
+			<h3>ENG to CH General[1~200]</h3>
+			<br>
+<table id="tableData" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>中文</th>
+						<th>拼音</th>
+						<th>English</th>
+					</tr>
+				</thead>
+				<tbody></tbody>
+			<br> <br> <span style="float: right;"><a
+				href="engch201to400.html">[201~400]</a></span>
+
+		</section>
+
+
+	</div>
+	<!--container end-->
+	<div style=""></div>
+	<footer>
+		<span style="color: red;">NO</span> Copyright &copy; 2016,
+		vnvinfo.net!
+	</footer>
+	
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="paging.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#tableData').paging({
+				limit : 20
+			});
+		});
+	</script>
+</body>
+</html>

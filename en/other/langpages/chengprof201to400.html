@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../css/style.css" type="text/css">
+<title>vnvinfo.net-blog-home</title>
+<script src="../../../js/script.js"></script>
+
+<!-- Additional Settings here -->
+<meta name="viewport" content="width=device-width">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+
+<!-- <link rel="stylesheet" -->
+<!-- 	href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+<style type="text/css">
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #4a4a4d;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th, td {
+	padding: 0.25rem;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+	background: yellow;
+}
+
+th:first-child {
+	border-top-left-radius: 5px;
+	text-align: left;
+}
+
+th:last-child {
+	border-top-right-radius: 5px;
+}
+
+thead {
+	background: linear-gradient(#49708f, #293f50);
+	background: #395870;
+	color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.paging-nav, #tableData {
+	width: 400px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+</style>
+<!-- Additional Settings ends here -->
+
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>
+				<img height="60" width="200" alt="logo"
+					src="../../../images/logo.jpg">
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
+		</header>
+
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><a href="../../../index.html">Home</a></li>
+				<li class="menuitem"><a href="../../../about.html">About</a></li>
+				<li class="menuitem"><a href="../../../contact.html">Contact</a></li>
+			</ul>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
+			<nav id="leftmenu">
+				<h3>Links</h3>
+				<ul>
+					<li><a href="../../agile/index.html">Agile Methodologies</a></li>
+					<li><a href="../../cloud/index.html">Cloud Computing</a></li>
+					<li><a href="../../corporate/index.html">Corporate
+							Training</a></li>
+					<li><a href="../../blog/index.html">Blog</a></li>
+					<li><a href="../../other/index.html">Others</a></li>
+				</ul>
+
+				<div>
+					<br> <br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
+			</nav>
+
+		</aside>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+
+			<span style="float:left;"><a href="chengprof201to400.html">[201~400]</a></span>
+			<br>
+
+			<h3>CHN to ENG Professional[1~200]</h3>
+
+
+			<table id="tableData" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>中文</th>
+						<th>拼音</th>
+						<th>English</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>201</td>
+						<td>违反</td>
+						<td>WeiFan</td>
+						<td>Violate</td>
+					</tr>
+					<tr>
+						<td>202</td>
+						<td>导致</td>
+						<td>DaoZhi</td>
+						<td>Lead to, Result in</td>
+					</tr>
+					<tr>
+						<td>203</td>
+						<td>造成</td>
+						<td>ZaoCheng</td>
+						<td>Give rise to, create</td>
+					</tr>
+					<tr>
+						<td>204</td>
+						<td>遵循</td>
+						<td>ZunXun</td>
+						<td>Follow</td>
+					</tr>
+					<tr>
+						<td>205</td>
+						<td>外籍</td>
+						<td>WaiJi</td>
+						<td>Foreign Nationality</td>
+					</tr>
+					<tr>
+						<td>206</td>
+						<td>首要的</td>
+						<td></td>
+						<td>Primary</td>
+					</tr>
+					<tr>
+						<td>207</td>
+						<td>雇主</td>
+						<td>GuZhu</td>
+						<td>Employer</td>
+					</tr>
+					<tr>
+						<td>208</td>
+						<td>进展</td>
+						<td>JinZhan</td>
+						<td>Make Progress</td>
+					</tr>
+					<tr>
+						<td>209</td>
+						<td>方针</td>
+						<td>FangZhen</td>
+						<td>Indication</td>
+					</tr>
+					<tr>
+						<td>210</td>
+						<td>此</td>
+						<td>Ci</td>
+						<td>Here</td>
+					</tr>
+					<tr>
+						<td>211</td>
+						<td>总裁</td>
+						<td>ZongCai</td>
+						<td>President/CEO</td>
+					</tr>
+					<tr>
+						<td>212</td>
+						<td>万一</td>
+						<td></td>
+						<td>Just in case</td>
+					</tr>
+					<tr>
+						<td>213</td>
+						<td>也许</td>
+						<td>YeXu</td>
+						<td>Probably, Maybe</td>
+					</tr>
+					<tr>
+						<td>214</td>
+						<td>赞同</td>
+						<td>ZanTong</td>
+						<td>Approve of/Agree with/Endorse</td>
+					</tr>
+					<tr>
+						<td>215</td>
+						<td>寻求</td>
+						<td>XunQiu</td>
+						<td>Seek</td>
+					</tr>
+					<tr>
+						<td>216</td>
+						<td>仍</td>
+						<td>Reng</td>
+						<td>Still/Yet</td>
+					</tr>
+					<tr>
+						<td>217</td>
+						<td>依据</td>
+						<td>YiJu</td>
+						<td>According to</td>
+					</tr>
+					<tr>
+						<td>218</td>
+						<td>守信</td>
+						<td>ShouXin</td>
+						<td>Keep Promise</td>
+					</tr>
+					<tr>
+						<td>219</td>
+						<td>渡假</td>
+						<td>DuJia</td>
+						<td>Vacation</td>
+					</tr>
+					<tr>
+						<td>220</td>
+						<td>单独放行</td>
+						<td></td>
+						<td>Travelling alone</td>
+					</tr>
+					<tr>
+						<td>221</td>
+						<td>酒后驾车</td>
+						<td>~JiaChe</td>
+						<td>Drunken Driving</td>
+					</tr>
+					<tr>
+						<td>222</td>
+						<td>庆祝</td>
+						<td>QingZhu</td>
+						<td>Celebrate</td>
+					</tr>
+					<tr>
+						<td>223</td>
+						<td>收拾</td>
+						<td>ShouShi</td>
+						<td>Put in order</td>
+					</tr>
+					<tr>
+						<td>224</td>
+						<td>挣钱</td>
+						<td></td>
+						<td>Make Money</td>
+					</tr>
+					<tr>
+						<td>225</td>
+						<td>样式</td>
+						<td></td>
+						<td>Style</td>
+					</tr>
+					<tr>
+						<td>226</td>
+						<td>事宜</td>
+						<td></td>
+						<td>Matter concerned</td>
+					</tr>
+					<tr>
+						<td>227</td>
+						<td>薪酬</td>
+						<td>Chou</td>
+						<td>Remuneration</td>
+					</tr>
+					<tr>
+						<td>228</td>
+						<td>绩效</td>
+						<td>Ji~</td>
+						<td>Performance</td>
+					</tr>
+					<tr>
+						<td>229</td>
+						<td>农历年</td>
+						<td></td>
+						<td>CH Calander</td>
+					</tr>
+					<tr>
+						<td>230</td>
+						<td>综合</td>
+						<td></td>
+						<td>Overall</td>
+					</tr>
+					<tr>
+						<td>231</td>
+						<td>岗位</td>
+						<td></td>
+						<td>Position</td>
+					</tr>
+					<tr>
+						<td>232</td>
+						<td>性质</td>
+						<td></td>
+						<td>Nature</td>
+					</tr>
+					<tr>
+						<td>233</td>
+						<td>评估</td>
+						<td></td>
+						<td>Appraisal, Assessment</td>
+					</tr>
+					<tr>
+						<td>234</td>
+						<td>奖励</td>
+						<td></td>
+						<td>Reward, award</td>
+					</tr>
+					<tr>
+						<td>235</td>
+						<td>业绩</td>
+						<td></td>
+						<td>Outstanding Achievement</td>
+					</tr>
+					<tr>
+						<td>236</td>
+						<td>密切</td>
+						<td></td>
+						<td>Closely related to</td>
+					</tr>
+					<tr>
+						<td>237</td>
+						<td>保障</td>
+						<td></td>
+						<td>Safeguard</td>
+					</tr>
+					<tr>
+						<td>238</td>
+						<td>医疗</td>
+						<td></td>
+						<td>Treatment</td>
+					</tr>
+					<tr>
+						<td>239</td>
+						<td>常规</td>
+						<td></td>
+						<td>Normal</td>
+					</tr>
+					<tr>
+						<td>240</td>
+						<td>贺礼</td>
+						<td></td>
+						<td>Gift; Congratulation</td>
+					</tr>
+					<tr>
+						<td>241</td>
+						<td>丧葬</td>
+						<td>SangZang</td>
+						<td>Funeral</td>
+					</tr>
+					<tr>
+						<td>242</td>
+						<td>慰问</td>
+						<td>WeiWen</td>
+						<td>Express sympathy</td>
+					</tr>
+					<tr>
+						<td>243</td>
+						<td>生育</td>
+						<td></td>
+						<td>Birth</td>
+					</tr>
+					<tr>
+						<td>244</td>
+						<td>聚餐</td>
+						<td></td>
+						<td>Eat together</td>
+					</tr>
+					<tr>
+						<td>245</td>
+						<td>抽奖</td>
+						<td></td>
+						<td>Lottery draw</td>
+					</tr>
+					<tr>
+						<td>246</td>
+						<td>带薪年假</td>
+						<td></td>
+						<td>Paid Annual Holidays</td>
+					</tr>
+					<tr>
+						<td>247</td>
+						<td>丧假</td>
+						<td></td>
+						<td>Funeral holidays</td>
+					</tr>
+					<tr>
+						<td>248</td>
+						<td>产假</td>
+						<td></td>
+						<td>Birth Holidays.</td>
+					</tr>
+					<tr>
+						<td>249</td>
+						<td>填写</td>
+						<td>TianXie</td>
+						<td>Fill in</td>
+					</tr>
+					<tr>
+						<td>250</td>
+						<td>履历书</td>
+						<td>LvLiShu</td>
+						<td>Personal Detail Book</td>
+					</tr>
+					<tr>
+						<td>251</td>
+						<td>资格证明</td>
+						<td></td>
+						<td>Competency/Experience Certificate</td>
+					</tr>
+					<tr>
+						<td>252</td>
+						<td>辖区</td>
+						<td>XiaQu</td>
+						<td>Area of jurisdiction</td>
+					</tr>
+					<tr>
+						<td>253</td>
+						<td>储蓄/借记卡</td>
+						<td>ChuXu</td>
+						<td>Saving/Debit Card</td>
+					</tr>
+					<tr>
+						<td>254</td>
+						<td>向导</td>
+						<td></td>
+						<td>Guidelines</td>
+					</tr>
+					<tr>
+						<td>255</td>
+						<td>职责</td>
+						<td>ZhiZe</td>
+						<td>Duty, Responsibilities</td>
+					</tr>
+					<tr>
+						<td>256</td>
+						<td>委员会</td>
+						<td></td>
+						<td>Committee member</td>
+					</tr>
+					<tr>
+						<td>257</td>
+						<td>事项</td>
+						<td>ShiXiang</td>
+						<td>Item</td>
+					</tr>
+					<tr>
+						<td>258</td>
+						<td>须知=必须知道</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>259</td>
+						<td>守则</td>
+						<td>ShouZe</td>
+						<td>Regulation</td>
+					</tr>
+					<tr>
+						<td>260</td>
+						<td>规章</td>
+						<td>GuiZhang</td>
+						<td>Rule</td>
+					</tr>
+					<tr>
+						<td>261</td>
+						<td>制度</td>
+						<td>ZhiDu</td>
+						<td>System</td>
+					</tr>
+					<tr>
+						<td>262</td>
+						<td>领取</td>
+						<td>LingQu</td>
+						<td>Go and get</td>
+					</tr>
+					<tr>
+						<td>263</td>
+						<td>挂失</td>
+						<td>GuaShi</td>
+						<td>Report the loss</td>
+					</tr>
+					<tr>
+						<td>264</td>
+						<td>补办</td>
+						<td>BuBan</td>
+						<td>Go through</td>
+					</tr>
+					<tr>
+						<td>265</td>
+						<td>公积金</td>
+						<td>GongJiJin</td>
+						<td>Public Accumulation Fund</td>
+					</tr>
+					<tr>
+						<td>266</td>
+						<td>户籍</td>
+						<td>HuJi</td>
+						<td>Household Register</td>
+					</tr>
+					<tr>
+						<td>267</td>
+						<td>公司名称</td>
+						<td>MingCheng</td>
+						<td>Name of company</td>
+					</tr>
+					<tr>
+						<td>268</td>
+						<td>法人代表</td>
+						<td></td>
+						<td>Legal Representative</td>
+					</tr>
+					<tr>
+						<td>269</td>
+						<td>组织结构</td>
+						<td>ZuZhiJieGou</td>
+						<td>Organization Structure</td>
+					</tr>
+					<tr>
+						<td>270</td>
+						<td>支援长春</td>
+						<td>ZhiYuan</td>
+						<td>Support</td>
+					</tr>
+					<tr>
+						<td>271</td>
+						<td>协助</td>
+						<td>XieZhu</td>
+						<td>Assist</td>
+					</tr>
+					<tr>
+						<td>272</td>
+						<td>总监</td>
+						<td>ZongJian</td>
+						<td>Chief Inspector</td>
+					</tr>
+					<tr>
+						<td>273</td>
+						<td>毅力</td>
+						<td>YiLi</td>
+						<td>Willpower</td>
+					</tr>
+					<tr>
+						<td>274</td>
+						<td>兼</td>
+						<td>Jian</td>
+						<td>Additional</td>
+					</tr>
+					<tr>
+						<td>275</td>
+						<td>生产管理</td>
+						<td></td>
+						<td>Production Management</td>
+					</tr>
+					<tr>
+						<td>276</td>
+						<td>制造管理</td>
+						<td></td>
+						<td>Manufacturing</td>
+					</tr>
+					<tr>
+						<td>277</td>
+						<td>定制化</td>
+						<td>DingZhiHua</td>
+						<td>Customization</td>
+					</tr>
+					<tr>
+						<td>278</td>
+						<td>营运</td>
+						<td>YingYun</td>
+						<td>Operation</td>
+					</tr>
+					<tr>
+						<td>279</td>
+						<td>虚拟化</td>
+						<td>XuNiHua</td>
+						<td>Virtualization</td>
+					</tr>
+					<tr>
+						<td>280</td>
+						<td>经营</td>
+						<td>JingYing</td>
+						<td>Management</td>
+					</tr>
+					<tr>
+						<td>281</td>
+						<td>策划</td>
+						<td>CeHua</td>
+						<td>Planning</td>
+					</tr>
+					<tr>
+						<td>282</td>
+						<td>制定</td>
+						<td>ZhiDing</td>
+						<td>Formulate</td>
+					</tr>
+					<tr>
+						<td>283</td>
+						<td>推广</td>
+						<td></td>
+						<td>Expand, Spread</td>
+					</tr>
+					<tr>
+						<td>284</td>
+						<td>形象</td>
+						<td></td>
+						<td>Image</td>
+					</tr>
+					<tr>
+						<td>285</td>
+						<td>各项</td>
+						<td></td>
+						<td>Everyone</td>
+					</tr>
+					<tr>
+						<td>286</td>
+						<td>申报</td>
+						<td></td>
+						<td>Report to higher authority</td>
+					</tr>
+					<tr>
+						<td>287</td>
+						<td>公章</td>
+						<td></td>
+						<td>Official Stamp</td>
+					</tr>
+					<tr>
+						<td>288</td>
+						<td>订约</td>
+						<td></td>
+						<td>Contracting</td>
+					</tr>
+					<tr>
+						<td>289</td>
+						<td>预约</td>
+						<td></td>
+						<td>YuYue</td>
+					</tr>
+					<tr>
+						<td>290</td>
+						<td>犹豫</td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>291</td>
+						<td>住宿</td>
+						<td>ZhuSu</td>
+						<td>Accommodation</td>
+					</tr>
+					<tr>
+						<td>292</td>
+						<td>研修</td>
+						<td></td>
+						<td>Training</td>
+					</tr>
+					<tr>
+						<td>293</td>
+						<td>等于</td>
+						<td></td>
+						<td>Be equal to</td>
+					</tr>
+					<tr>
+						<td>294</td>
+						<td>外籍</td>
+						<td>WaiJi</td>
+						<td>Foreigner</td>
+					</tr>
+					<tr>
+						<td>295</td>
+						<td>录用</td>
+						<td>LuYong</td>
+						<td>Hire/Employment</td>
+					</tr>
+					<tr>
+						<td>296</td>
+						<td>奖金</td>
+						<td></td>
+						<td>Bonus</td>
+					</tr>
+					<tr>
+						<td>297</td>
+						<td>异常</td>
+						<td>YiChang</td>
+						<td>Abnormal, unusual</td>
+					</tr>
+					<tr>
+						<td>298</td>
+						<td>设施</td>
+						<td></td>
+						<td>Facility/Establishment(Company)</td>
+					</tr>
+					<tr>
+						<td>299</td>
+						<td>监督</td>
+						<td></td>
+						<td>Observe, supervision</td>
+					</tr>
+					<tr>
+						<td>300</td>
+						<td>反应</td>
+						<td>FanYing</td>
+						<td>Reaction</td>
+					</tr>
+					<tr>
+						<td>301</td>
+						<td>协调</td>
+						<td></td>
+						<td>Coordination</td>
+					</tr>
+					<tr>
+						<td>302</td>
+						<td>消防</td>
+						<td></td>
+						<td>Fire Control</td>
+					</tr>
+					<tr>
+						<td>303</td>
+						<td>保卫</td>
+						<td></td>
+						<td>Safeguard</td>
+					</tr>
+					<tr>
+						<td>304</td>
+						<td>物业</td>
+						<td></td>
+						<td>Property</td>
+					</tr>
+					<tr>
+						<td>305</td>
+						<td>保洁</td>
+						<td></td>
+						<td>Housekeeping/Cleaning</td>
+					</tr>
+					<tr>
+						<td>306</td>
+						<td>治安秩序</td>
+						<td>ZhiAnZhiXu</td>
+						<td>Public security peace and order</td>
+					</tr>
+					<tr>
+						<td>307</td>
+						<td>感动</td>
+						<td></td>
+						<td>Be moved</td>
+					</tr>
+					<tr>
+						<td>308</td>
+						<td>损坏</td>
+						<td>SunHuai</td>
+						<td>Damage, Breakdown</td>
+					</tr>
+					<tr>
+						<td>309</td>
+						<td>拨打</td>
+						<td>BoDa</td>
+						<td>Dial</td>
+					</tr>
+					<tr>
+						<td>310</td>
+						<td>涉及</td>
+						<td>SheJi</td>
+						<td>Involve, Relate to</td>
+					</tr>
+					<tr>
+						<td>311</td>
+						<td>房地产</td>
+						<td></td>
+						<td>Real estate</td>
+					</tr>
+					<tr>
+						<td>312</td>
+						<td>制订</td>
+						<td>ZhiDing</td>
+						<td>Formulate</td>
+					</tr>
+					<tr>
+						<td>313</td>
+						<td>方针</td>
+						<td></td>
+						<td>Policy/Guiding Principle</td>
+					</tr>
+					<tr>
+						<td>314</td>
+						<td>促进</td>
+						<td>CuJin</td>
+						<td>Promote</td>
+					</tr>
+					<tr>
+						<td>315</td>
+						<td>应用</td>
+						<td></td>
+						<td>Apply, Use</td>
+					</tr>
+					<tr>
+						<td>316</td>
+						<td>改善</td>
+						<td>GaiShan</td>
+						<td>Improve</td>
+					</tr>
+					<tr>
+						<td>317</td>
+						<td>审查</td>
+						<td>ShenCha</td>
+						<td>Examine</td>
+					</tr>
+					<tr>
+						<td>318</td>
+						<td>品质保证</td>
+						<td></td>
+						<td>Quality Assurance</td>
+					</tr>
+					<tr>
+						<td>319</td>
+						<td>担当</td>
+						<td></td>
+						<td>Acting/Undertaking</td>
+					</tr>
+					<tr>
+						<td>320</td>
+						<td>保障</td>
+						<td></td>
+						<td>Guarantee/safeguard/ensure</td>
+					</tr>
+					<tr>
+						<td>321</td>
+						<td>构筑</td>
+						<td>GouZhu</td>
+						<td>Building</td>
+					</tr>
+					<tr>
+						<td>322</td>
+						<td>权限</td>
+						<td></td>
+						<td>Jurisdiction/Authority</td>
+					</tr>
+					<tr>
+						<td>323</td>
+						<td>设定</td>
+						<td></td>
+						<td>Setting</td>
+					</tr>
+					<tr>
+						<td>324</td>
+						<td>所属</td>
+						<td>SuoShu</td>
+						<td>Subordinates</td>
+					</tr>
+					<tr>
+						<td>325</td>
+						<td>措施</td>
+						<td>CuoShi</td>
+						<td>Measures, Step</td>
+					</tr>
+					<tr>
+						<td>326</td>
+						<td>定期</td>
+						<td></td>
+						<td>Periodic</td>
+					</tr>
+					<tr>
+						<td>327</td>
+						<td>资产</td>
+						<td></td>
+						<td>Asset/Property</td>
+					</tr>
+					<tr>
+						<td>328</td>
+						<td>点检</td>
+						<td></td>
+						<td>Check, Inspection</td>
+					</tr>
+					<tr>
+						<td>329</td>
+						<td>招聘</td>
+						<td>ZhaoPin</td>
+						<td>Hire</td>
+					</tr>
+					<tr>
+						<td>330</td>
+						<td>选拔</td>
+						<td>XuanBa</td>
+						<td>Selection</td>
+					</tr>
+					<tr>
+						<td>331</td>
+						<td>绩效</td>
+						<td>JiXiao</td>
+						<td>Performance Management</td>
+					</tr>
+					<tr>
+						<td>332</td>
+						<td>薪酬</td>
+						<td>XinChou</td>
+						<td>Salary</td>
+					</tr>
+					<tr>
+						<td>333</td>
+						<td>福利</td>
+						<td>FuLi</td>
+						<td>Welfare</td>
+					</tr>
+					<tr>
+						<td>334</td>
+						<td>把握</td>
+						<td>BaWo</td>
+						<td>Grasp, Hold</td>
+					</tr>
+					<tr>
+						<td>335</td>
+						<td>考核评价</td>
+						<td>KaoHe~</td>
+						<td>Assessment & Evaluation</td>
+					</tr>
+					<tr>
+						<td>336</td>
+						<td>藜麦</td>
+						<td>LiMai</td>
+						<td>Quinoa</td>
+					</tr>
+					<tr>
+						<td>337</td>
+						<td>负责</td>
+						<td>FuZe</td>
+						<td>Bear</td>
+					</tr>
+					<tr>
+						<td>338</td>
+						<td>制订</td>
+						<td></td>
+						<td>Formulate</td>
+					</tr>
+					<tr>
+						<td>339</td>
+						<td>督促</td>
+						<td>DuCu</td>
+						<td>Supervise and promote</td>
+					</tr>
+					<tr>
+						<td>340</td>
+						<td>符合</td>
+						<td>FuHe</td>
+						<td>Accordance, Conformance</td>
+					</tr>
+					<tr>
+						<td>341</td>
+						<td>至少</td>
+						<td>ZhiShao</td>
+						<td>Atleast</td>
+					</tr>
+					<tr>
+						<td>342</td>
+						<td>连续</td>
+						<td>LianXu</td>
+						<td>Succession, Continuation</td>
+					</tr>
+					<tr>
+						<td>343</td>
+						<td>字母</td>
+						<td></td>
+						<td>Alphabet</td>
+					</tr>
+					<tr>
+						<td>344</td>
+						<td>奇数，单数/偶数</td>
+						<td></td>
+						<td>Odd/Even Number</td>
+					</tr>
+					<tr>
+						<td>345</td>
+						<td>符号</td>
+						<td></td>
+						<td>Special Character</td>
+					</tr>
+					<tr>
+						<td>346</td>
+						<td>点击</td>
+						<td>DianJi</td>
+						<td>Click</td>
+					</tr>
+					<tr>
+						<td>347</td>
+						<td>认真</td>
+						<td></td>
+						<td>Seriously</td>
+					</tr>
+					<tr>
+						<td>348</td>
+						<td>其实</td>
+						<td></td>
+						<td>Secondly</td>
+					</tr>
+					<tr>
+						<td>349</td>
+						<td>严格</td>
+						<td>YanGe</td>
+						<td>Strict, Serious, Rigorous</td>
+					</tr>
+					<tr>
+						<td>350</td>
+						<td>规定执行</td>
+						<td></td>
+						<td>Enforcement/Execute the rules</td>
+					</tr>
+					<tr>
+						<td>351</td>
+						<td>违反</td>
+						<td></td>
+						<td>Violation</td>
+					</tr>
+					<tr>
+						<td>352</td>
+						<td>罚则</td>
+						<td>FaZe</td>
+						<td>Penalties</td>
+					</tr>
+					<tr>
+						<td>353</td>
+						<td>严肃</td>
+						<td>YanSu</td>
+						<td>Serious, harsh</td>
+					</tr>
+					<tr>
+						<td>354</td>
+						<td>再次</td>
+						<td></td>
+						<td>Once again</td>
+					</tr>
+					<tr>
+						<td>355</td>
+						<td>条目</td>
+						<td>TiaoMu</td>
+						<td>Entry, Item</td>
+					</tr>
+					<tr>
+						<td>356</td>
+						<td>检索</td>
+						<td>JianSuo</td>
+						<td>Retrieval, Search</td>
+					</tr>
+					<tr>
+						<td>357</td>
+						<td>及时</td>
+						<td></td>
+						<td>Immediately</td>
+					</tr>
+					<tr>
+						<td>358</td>
+						<td>情报</td>
+						<td></td>
+						<td>Information</td>
+					</tr>
+					<tr>
+						<td>359</td>
+						<td>自行查询</td>
+						<td></td>
+						<td>Self Inquiry</td>
+					</tr>
+					<tr>
+						<td>360</td>
+						<td>后缀</td>
+						<td>HouZhui</td>
+						<td>Suffix, Postfix</td>
+					</tr>
+					<tr>
+						<td>361</td>
+						<td>分别</td>
+						<td></td>
+						<td>Respectively</td>
+					</tr>
+					<tr>
+						<td>362</td>
+						<td>引号</td>
+						<td></td>
+						<td>Double Quote ""</td>
+					</tr>
+					<tr>
+						<td>363</td>
+						<td>参照</td>
+						<td></td>
+						<td>According to</td>
+					</tr>
+					<tr>
+						<td>364</td>
+						<td>针对</td>
+						<td></td>
+						<td>Be aimed at, point to</td>
+					</tr>
+					<tr>
+						<td>365</td>
+						<td>明细</td>
+						<td></td>
+						<td>Details</td>
+					</tr>
+					<tr>
+						<td>366</td>
+						<td>自助重置</td>
+						<td>~ChongZhi</td>
+						<td>Reset</td>
+					</tr>
+					<tr>
+						<td>367</td>
+						<td>疑问</td>
+						<td>YiWen</td>
+						<td>Query, Question</td>
+					</tr>
+					<tr>
+						<td>368</td>
+						<td>咨询</td>
+						<td></td>
+						<td>Inquire</td>
+					</tr>
+					<tr>
+						<td>369</td>
+						<td>注明</td>
+						<td></td>
+						<td>Make a footnote</td>
+					</tr>
+					<tr>
+						<td>370</td>
+						<td>论坛</td>
+						<td>LunTan</td>
+						<td>Forum</td>
+					</tr>
+					<tr>
+						<td>371</td>
+						<td>互动</td>
+						<td>HuDong</td>
+						<td>Interaction</td>
+					</tr>
+					<tr>
+						<td>372</td>
+						<td>模块</td>
+						<td></td>
+						<td>Model</td>
+					</tr>
+					<tr>
+						<td>373</td>
+						<td>预装</td>
+						<td>YuZhuang</td>
+						<td>Preloaded (SW)</td>
+					</tr>
+					<tr>
+						<td>374</td>
+						<td>Winrar 解压缩</td>
+						<td>~YaSuo</td>
+						<td>Compression</td>
+					</tr>
+					<tr>
+						<td>375</td>
+						<td>后续相关</td>
+						<td>HouXu~</td>
+						<td>Follow up</td>
+					</tr>
+					<tr>
+						<td>376</td>
+						<td>手顺</td>
+						<td>ShouShun</td>
+						<td>Handbook</td>
+					</tr>
+					<tr>
+						<td>377</td>
+						<td>设置</td>
+						<td></td>
+						<td>Settings</td>
+					</tr>
+					<tr>
+						<td>378</td>
+						<td>故障</td>
+						<td>GuZhang</td>
+						<td>Bug, Fault</td>
+					</tr>
+					<tr>
+						<td>379</td>
+						<td>填写</td>
+						<td>TianXie</td>
+						<td>Fill in</td>
+					</tr>
+					<tr>
+						<td>380</td>
+						<td>并</td>
+						<td>Bing</td>
+						<td>And</td>
+					</tr>
+					<tr>
+						<td>381</td>
+						<td>专员</td>
+						<td></td>
+						<td>Assistant Director</td>
+					</tr>
+					<tr>
+						<td>382</td>
+						<td>共享</td>
+						<td>GongXiang</td>
+						<td>Share</td>
+					</tr>
+					<tr>
+						<td>383</td>
+						<td>亨</td>
+						<td>Heng</td>
+						<td>Prosperous</td>
+					</tr>
+					<tr>
+						<td>384</td>
+						<td>万事亨通</td>
+						<td></td>
+						<td>All Ok</td>
+					</tr>
+					<tr>
+						<td>385</td>
+						<td>衣着</td>
+						<td>YiZhuo</td>
+						<td>Clothing</td>
+					</tr>
+					<tr>
+						<td>386</td>
+						<td>合乎</td>
+						<td>HeHu</td>
+						<td>Appropriate</td>
+					</tr>
+					<tr>
+						<td>387</td>
+						<td>形象</td>
+						<td></td>
+						<td>Image</td>
+					</tr>
+					<tr>
+						<td>388</td>
+						<td>穿着</td>
+						<td></td>
+						<td>Be Dressed</td>
+					</tr>
+					<tr>
+						<td>389</td>
+						<td>打扮</td>
+						<td>DaBan</td>
+						<td>Dress up</td>
+					</tr>
+					<tr>
+						<td>390</td>
+						<td>行为</td>
+						<td></td>
+						<td>Behavior</td>
+					</tr>
+					<tr>
+						<td>391</td>
+						<td>守则</td>
+						<td></td>
+						<td>Regulation</td>
+					</tr>
+					<tr>
+						<td>392</td>
+						<td>规章制度</td>
+						<td></td>
+						<td>Rules and regulation</td>
+					</tr>
+					<tr>
+						<td>393</td>
+						<td>大方得体</td>
+						<td></td>
+						<td>Generous Decency</td>
+					</tr>
+					<tr>
+						<td>394</td>
+						<td>整齐清洁</td>
+						<td>ZhengQi</td>
+						<td>Neat and clean</td>
+					</tr>
+					<tr>
+						<td>395</td>
+						<td>基本原则</td>
+						<td>~Ze</td>
+						<td>Basic principle</td>
+					</tr>
+					<tr>
+						<td>396</td>
+						<td>提倡</td>
+						<td>TiChang</td>
+						<td>Promote, Recommend, encourage</td>
+					</tr>
+					<tr>
+						<td>397</td>
+						<td>便装</td>
+						<td>BianZhuang</td>
+						<td>Normal plain cloth</td>
+					</tr>
+					<tr>
+						<td>398</td>
+						<td>相符</td>
+						<td></td>
+						<td>Conform to</td>
+					</tr>
+					<tr>
+						<td>399</td>
+						<td>不得</td>
+						<td></td>
+						<td>Prohibit</td>
+					</tr>
+					<tr>
+						<td>400</td>
+						<td>奇装异服</td>
+						<td>Qi~Yi</td>
+						<td>Odd clothe</td>
+					</tr>
+
+				</tbody>
+			</table>
+
+			<br> <br> <span style="float: left;"><a
+				href="chengprof1to200.html">[1~200]</a></span>
+
+		</section>
+
+
+	</div>
+	<!--container end-->
+	<div style=""></div>
+	<footer>
+		<span style="color: red;">NO</span> Copyright &copy; 2016,
+		vnvinfo.net!
+	</footer>
+	<script type="text/javascript"
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script
+		src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="paging.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#tableData').paging({
+				limit : 20
+			});
+		});
+	</script>
+</body>
+</html>

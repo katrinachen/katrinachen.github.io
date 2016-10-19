@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../css/style.css" type="text/css">
+<title>vnvinfo.net-blog-home</title>
+<script src="../../../js/script.js"></script>
+<!-- Additional Settings here -->
+<meta name="viewport" content="width=device-width">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+
+<!-- <link rel="stylesheet" -->
+<!-- 	href="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
+<style type="text/css">
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	color: #4a4a4d;
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+th, td {
+	padding: 0.25rem;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+tbody tr:hover {
+	background: yellow;
+}
+
+th:first-child {
+	border-top-left-radius: 5px;
+	text-align: left;
+}
+
+th:last-child {
+	border-top-right-radius: 5px;
+}
+
+thead {
+	background: linear-gradient(#49708f, #293f50);
+	background: #395870;
+	color: #fff;
+}
+
+th {
+	font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+	background: #f0f0f2;
+}
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.paging-nav, #tableData {
+	width: 400px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+</style>
+<!-- Additional Settings ends here -->
+</head>
+<body>
+	<div id="container">
+		<header>
+			<h1>
+				<img height="60" width="200" alt="logo"
+					src="../../../images/logo.jpg">
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
+		</header>
+
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><a href="../../../index.html">Home</a></li>
+				<li class="menuitem"><a href="../../../about.html">About</a></li>
+				<li class="menuitem"><a href="../../../contact.html">Contact</a></li>
+			</ul>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
+			<nav id="leftmenu">
+				<h3>Links</h3>
+				<ul>
+					<li><a href="../../agile/index.html">Agile Methodologies</a></li>
+					<li><a href="../../cloud/index.html">Cloud Computing</a></li>
+					<li><a href="../../corporate/index.html">Corporate
+							Training</a></li>
+					<li><a href="../../blog/index.html">Blog</a></li>
+					<li><a href="../../other/index.html">Others</a></li>
+				</ul>
+
+				<div>
+					<br> <br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
+			</nav>
+
+		</aside>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+			<span style="float: left;"><a href="chengtech1to200.html">[1~200]</a></span>
+			<span style="float: right;"><a href="chengtech401to600.html">[401~600]</a></span>
+
+			<br>
+
+			<h3>CHN to ENG Technical [201~400]</h3>
+			<br>
+			<table id="tableData" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>ENG</th>
+						<th>CH</th>						
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>201</td>
+						<td>debug</td>
+						<td>调试</td>
+					</tr>
+					<tr>
+						<td>202</td>
+						<td>point</td>
+						<td>点 重点/指针</td>
+					</tr>
+					<tr>
+						<td>203</td>
+						<td>contents</td>
+						<td>内容</td>
+					</tr>
+					<tr>
+						<td>204</td>
+						<td>service</td>
+						<td>服务</td>
+					</tr>
+					<tr>
+						<td>205</td>
+						<td>risk</td>
+						<td>风险</td>
+					</tr>
+					<tr>
+						<td>206</td>
+						<td>memory</td>
+						<td>内存</td>
+					</tr>
+					<tr>
+						<td>207</td>
+						<td>leak</td>
+						<td>泄露</td>
+					</tr>
+					<tr>
+						<td>208</td>
+						<td>speed</td>
+						<td>速度</td>
+					</tr>
+					<tr>
+						<td>209</td>
+						<td>timing</td>
+						<td>时间</td>
+					</tr>
+					<tr>
+						<td>210</td>
+						<td>byte</td>
+						<td>字节</td>
+					</tr>
+					<tr>
+						<td>211</td>
+						<td>virus</td>
+						<td>病毒</td>
+					</tr>
+					<tr>
+						<td>212</td>
+						<td>level</td>
+						<td>水平</td>
+					</tr>
+					<tr>
+						<td>213</td>
+						<td>macro</td>
+						<td>宏</td>
+					</tr>
+					<tr>
+						<td>214</td>
+						<td>parameter</td>
+						<td>参数</td>
+					</tr>
+					<tr>
+						<td>215</td>
+						<td>status</td>
+						<td>状态</td>
+					</tr>
+					<tr>
+						<td>216</td>
+						<td>default</td>
+						<td>默认</td>
+					</tr>
+					<tr>
+						<td>217</td>
+						<td>query</td>
+						<td>查询</td>
+					</tr>
+					<tr>
+						<td>218</td>
+						<td>storeprocedure</td>
+						<td>存储过程</td>
+					</tr>
+					<tr>
+						<td>219</td>
+						<td>routine</td>
+						<td>（例行）程序</td>
+					</tr>
+					<tr>
+						<td>220</td>
+						<td>control panel</td>
+						<td>控制面板</td>
+					</tr>
+					<tr>
+						<td>221</td>
+						<td>scroll bar</td>
+						<td>滚动条</td>
+					</tr>
+					<tr>
+						<td>222</td>
+						<td>design pattarn</td>
+						<td>设计模式</td>
+					</tr>
+					<tr>
+						<td>223</td>
+						<td>explorer</td>
+						<td>管理器</td>
+					</tr>
+					<tr>
+						<td>224</td>
+						<td>command</td>
+						<td>命令</td>
+					</tr>
+					<tr>
+						<td>225</td>
+						<td>property</td>
+						<td>属性</td>
+					</tr>
+					<tr>
+						<td>226</td>
+						<td>clipboard</td>
+						<td>剪贴板</td>
+					</tr>
+					<tr>
+						<td>227</td>
+						<td>hyper link</td>
+						<td>超级链接</td>
+					</tr>
+					<tr>
+						<td>228</td>
+						<td>space</td>
+						<td>空空格</td>
+					</tr>
+					<tr>
+						<td>229</td>
+						<td>filter</td>
+						<td>过滤 筛选</td>
+					</tr>
+					<tr>
+						<td>230</td>
+						<td>shortcut</td>
+						<td>快捷方式</td>
+					</tr>
+					<tr>
+						<td>231</td>
+						<td>simulator</td>
+						<td>模拟器</td>
+					</tr>
+					<tr>
+						<td>232</td>
+						<td>cost</td>
+						<td>成本</td>
+					</tr>
+					<tr>
+						<td>233</td>
+						<td>management</td>
+						<td>管理</td>
+					</tr>
+					<tr>
+						<td>234</td>
+						<td>project</td>
+						<td>项目</td>
+					</tr>
+					<tr>
+						<td>235</td>
+						<td>manager</td>
+						<td>经理</td>
+					</tr>
+					<tr>
+						<td>236</td>
+						<td>leader</td>
+						<td>组长</td>
+					</tr>
+					<tr>
+						<td>237</td>
+						<td>subleader</td>
+						<td>副组长</td>
+					</tr>
+					<tr>
+						<td>238</td>
+						<td>member</td>
+						<td>成员</td>
+					</tr>
+					<tr>
+						<td>239</td>
+						<td>teamwork</td>
+						<td>团队工作</td>
+					</tr>
+					<tr>
+						<td>240</td>
+						<td>communication</td>
+						<td>交流</td>
+					</tr>
+					<tr>
+						<td>241</td>
+						<td>mark</td>
+						<td>标记</td>
+					</tr>
+					<tr>
+						<td>242</td>
+						<td>copy</td>
+						<td>复制</td>
+					</tr>
+					<tr>
+						<td>243</td>
+						<td>click</td>
+						<td>单击</td>
+					</tr>
+					<tr>
+						<td>244</td>
+						<td>double click</td>
+						<td>双击</td>
+					</tr>
+					<tr>
+						<td>245</td>
+						<td>compile</td>
+						<td>编译</td>
+					</tr>
+					<tr>
+						<td>246</td>
+						<td>cursor</td>
+						<td>光标</td>
+					</tr>
+					<tr>
+						<td>247</td>
+						<td>focus</td>
+						<td>焦点</td>
+					</tr>
+					<tr>
+						<td>248</td>
+						<td>setup</td>
+						<td>设置</td>
+					</tr>
+					<tr>
+						<td>249</td>
+						<td>font</td>
+						<td>字体</td>
+					</tr>
+					<tr>
+						<td>250</td>
+						<td>layout</td>
+						<td>编排 设计</td>
+					</tr>
+					<tr>
+						<td>251</td>
+						<td>cycle</td>
+						<td>周期 循环</td>
+					</tr>
+					<tr>
+						<td>252</td>
+						<td>jump</td>
+						<td>跳</td>
+					</tr>
+					<tr>
+						<td>253</td>
+						<td>clear</td>
+						<td>清空</td>
+					</tr>
+					<tr>
+						<td>254</td>
+						<td>link</td>
+						<td>链接</td>
+					</tr>
+					<tr>
+						<td>255</td>
+						<td>import</td>
+						<td>导入</td>
+					</tr>
+					<tr>
+						<td>256</td>
+						<td>outport</td>
+						<td>导出</td>
+					</tr>
+					<tr>
+						<td>257</td>
+						<td>image</td>
+						<td>图片 形象</td>
+					</tr>
+					<tr>
+						<td>258</td>
+						<td>picture</td>
+						<td>图片</td>
+					</tr>
+					<tr>
+						<td>259</td>
+						<td>paint</td>
+						<td>描画</td>
+					</tr>
+					<tr>
+						<td>260</td>
+						<td>abort</td>
+						<td>中止</td>
+					</tr>
+					<tr>
+						<td>261</td>
+						<td>abstract class</td>
+						<td>抽象类</td>
+					</tr>
+					<tr>
+						<td>262</td>
+						<td>accelerator</td>
+						<td>快捷键</td>
+					</tr>
+					<tr>
+						<td>263</td>
+						<td>accelerator mapping</td>
+						<td>快捷键映射</td>
+					</tr>
+					<tr>
+						<td>264</td>
+						<td>table</td>
+						<td>快捷键对应表</td>
+					</tr>
+					<tr>
+						<td>265</td>
+						<td>access modifier</td>
+						<td>访问修饰符</td>
+					</tr>
+					<tr>
+						<td>266</td>
+						<td>Access Pack</td>
+						<td>访问包</td>
+					</tr>
+					<tr>
+						<td>267</td>
+						<td>access specifier</td>
+						<td>访问说明符</td>
+					</tr>
+					<tr>
+						<td>268</td>
+						<td>access violation</td>
+						<td>访问冲突</td>
+					</tr>
+					<tr>
+						<td>269</td>
+						<td>accessibility</td>
+						<td>辅助功能</td>
+					</tr>
+					<tr>
+						<td>270</td>
+						<td>accessibility domain</td>
+						<td>可访问域</td>
+					</tr>
+					<tr>
+						<td>271</td>
+						<td>Accessibility Options</td>
+						<td>辅助功能选项</td>
+					</tr>
+					<tr>
+						<td>272</td>
+						<td>accessor</td>
+						<td>访问器</td>
+					</tr>
+					<tr>
+						<td>273</td>
+						<td>action</td>
+						<td>操作</td>
+					</tr>
+					<tr>
+						<td>274</td>
+						<td>Active Directory hierarchy Active Directory</td>
+						<td>层次结构</td>
+					</tr>
+					<tr>
+						<td>275</td>
+						<td>active document</td>
+						<td>活动文档</td>
+					</tr>
+					<tr>
+						<td>276</td>
+						<td>Active Document Containment</td>
+						<td>活动文档包容</td>
+					</tr>
+					<tr>
+						<td>277</td>
+						<td>active end</td>
+						<td>活动端</td>
+					</tr>
+					<tr>
+						<td>278</td>
+						<td>active object</td>
+						<td>活动对象</td>
+					</tr>
+					<tr>
+						<td>279</td>
+						<td>active point</td>
+						<td>活动点</td>
+					</tr>
+					<tr>
+						<td>280</td>
+						<td>Active Template Library</td>
+						<td>活动模板库</td>
+					</tr>
+					<tr>
+						<td>281</td>
+						<td>ActiveX Component ActiveX</td>
+						<td>组件</td>
+					</tr>
+					<tr>
+						<td>282</td>
+						<td>ActiveX Control ActiveX</td>
+						<td>控件</td>
+					</tr>
+					<tr>
+						<td>283</td>
+						<td>ActiveX control container ActiveX</td>
+						<td>控件容器</td>
+					</tr>
+					<tr>
+						<td>284</td>
+						<td>ActiveX Control Interface Wizard ActiveX</td>
+						<td>控件接口向导</td>
+					</tr>
+					<tr>
+						<td>285</td>
+						<td>ActiveX Control Test Container ActiveX</td>
+						<td>控件测试容器</td>
+					</tr>
+					<tr>
+						<td>286</td>
+						<td>ActiveX Designer ActiveX</td>
+						<td>设计器</td>
+					</tr>
+					<tr>
+						<td>287</td>
+						<td>ActiveX Document Migration Wizard ActiveX</td>
+						<td>文档移植向导</td>
+					</tr>
+					<tr>
+						<td>288</td>
+						<td>ActiveX-enabled</td>
+						<td>支持 ActiveX 的</td>
+					</tr>
+					<tr>
+						<td>289</td>
+						<td>Add-In</td>
+						<td>外接程序</td>
+					</tr>
+					<tr>
+						<td>290</td>
+						<td>Address Book</td>
+						<td>通讯簿</td>
+					</tr>
+					<tr>
+						<td>291</td>
+						<td>address space</td>
+						<td>地址空间</td>
+					</tr>
+					<tr>
+						<td>292</td>
+						<td>Administrator Mode</td>
+						<td>管理员模式</td>
+					</tr>
+					<tr>
+						<td>293</td>
+						<td>advise sink</td>
+						<td>通知接收</td>
+					</tr>
+					<tr>
+						<td>294</td>
+						<td>aggregate</td>
+						<td>聚合</td>
+					</tr>
+					<tr>
+						<td>295</td>
+						<td>Airbrush</td>
+						<td>喷枪</td>
+					</tr>
+					<tr>
+						<td>296</td>
+						<td>All Tables</td>
+						<td>所有表</td>
+					</tr>
+					<tr>
+						<td>297</td>
+						<td>Always On Top</td>
+						<td>总在最前面</td>
+					</tr>
+					<tr>
+						<td>298</td>
+						<td>ambient</td>
+						<td>环境</td>
+					</tr>
+					<tr>
+						<td>299</td>
+						<td>ambiguous</td>
+						<td>不明确</td>
+					</tr>
+					<tr>
+						<td>300</td>
+						<td>ampersand</td>
+						<td>符号</td>
+					</tr>
+					<tr>
+						<td>301</td>
+						<td>ampersand (&)</td>
+						<td>符 (&)</td>
+					</tr>
+					<tr>
+						<td>302</td>
+						<td>anchor</td>
+						<td>标记</td>
+					</tr>
+					<tr>
+						<td>303</td>
+						<td>animation control</td>
+						<td>动画控件</td>
+					</tr>
+					<tr>
+						<td>304</td>
+						<td>application framework</td>
+						<td>应用程序框架</td>
+					</tr>
+					<tr>
+						<td>305</td>
+						<td>Application Wizard</td>
+						<td>应用程序向导</td>
+					</tr>
+					<tr>
+						<td>306</td>
+						<td>Apply Now</td>
+						<td>立即应用</td>
+					</tr>
+					<tr>
+						<td>307</td>
+						<td>apply to similar</td>
+						<td>应用到相似项</td>
+					</tr>
+					<tr>
+						<td>308</td>
+						<td>argument</td>
+						<td>字变量</td>
+					</tr>
+					<tr>
+						<td>309</td>
+						<td>Arrange Tables</td>
+						<td>排列表</td>
+					</tr>
+					<tr>
+						<td>310</td>
+						<td>array initializer</td>
+						<td>数组初始值设定项</td>
+					</tr>
+					<tr>
+						<td>311</td>
+						<td>array rank</td>
+						<td>数组秩</td>
+					</tr>
+					<tr>
+						<td>312</td>
+						<td>ARROW key</td>
+						<td>箭头键</td>
+					</tr>
+					<tr>
+						<td>313</td>
+						<td>assembly</td>
+						<td>程序集；汇编</td>
+					</tr>
+					<tr>
+						<td>314</td>
+						<td>assembly manifest</td>
+						<td>程序集清单</td>
+					</tr>
+					<tr>
+						<td>315</td>
+						<td>assert</td>
+						<td>断言</td>
+					</tr>
+					<tr>
+						<td>316</td>
+						<td>assign</td>
+						<td>分配</td>
+					</tr>
+					<tr>
+						<td>317</td>
+						<td>associate</td>
+						<td>关联</td>
+					</tr>
+					<tr>
+						<td>318</td>
+						<td>"asterisk (""*"")"</td>
+						<td>星号（“*”）</td>
+					</tr>
+					<tr>
+						<td>319</td>
+						<td>atomic operation</td>
+						<td>原子操作</td>
+					</tr>
+					<tr>
+						<td>320</td>
+						<td>attached table</td>
+						<td>附加表</td>
+					</tr>
+					<tr>
+						<td>321</td>
+						<td>attribute</td>
+						<td>特性</td>
+					</tr>
+					<tr>
+						<td>322</td>
+						<td>Authentication</td>
+						<td>身份验证</td>
+					</tr>
+					<tr>
+						<td>323</td>
+						<td>authorable</td>
+						<td>可创作（的）</td>
+					</tr>
+					<tr>
+						<td>324</td>
+						<td>Auto Increment</td>
+						<td>自动增加</td>
+					</tr>
+					<tr>
+						<td>325</td>
+						<td>Auto Syntax Check</td>
+						<td>自动语法校验</td>
+					</tr>
+					<tr>
+						<td>326</td>
+						<td>Automatic</td>
+						<td>自动</td>
+					</tr>
+					<tr>
+						<td>327</td>
+						<td>automation</td>
+						<td>自动控制</td>
+					</tr>
+					<tr>
+						<td>328</td>
+						<td>automation-enabled</td>
+						<td>启用自动化</td>
+					</tr>
+					<tr>
+						<td>329</td>
+						<td>background color</td>
+						<td>背景色</td>
+					</tr>
+					<tr>
+						<td>330</td>
+						<td>backslash</td>
+						<td>反斜杠</td>
+					</tr>
+					<tr>
+						<td>331</td>
+						<td>bad</td>
+						<td>坏的</td>
+					</tr>
+					<tr>
+						<td>332</td>
+						<td>base address</td>
+						<td>基址</td>
+					</tr>
+					<tr>
+						<td>333</td>
+						<td>base class</td>
+						<td>基类</td>
+					</tr>
+					<tr>
+						<td>334</td>
+						<td>base implementation</td>
+						<td>基实现</td>
+					</tr>
+					<tr>
+						<td>335</td>
+						<td>base keyword</td>
+						<td>基关键字</td>
+					</tr>
+					<tr>
+						<td>336</td>
+						<td>base method</td>
+						<td>基方法</td>
+					</tr>
+					<tr>
+						<td>337</td>
+						<td>base table</td>
+						<td>基表</td>
+					</tr>
+					<tr>
+						<td>338</td>
+						<td>be paged to disk</td>
+						<td>分页到磁盘</td>
+					</tr>
+					<tr>
+						<td>339</td>
+						<td>behavior</td>
+						<td>行为</td>
+					</tr>
+					<tr>
+						<td>340</td>
+						<td>Behind the Scenes</td>
+						<td>幕后</td>
+					</tr>
+					<tr>
+						<td>341</td>
+						<td>Binary Binary</td>
+						<td>二进制</td>
+					</tr>
+					<tr>
+						<td>342</td>
+						<td>binary operator</td>
+						<td>二元运算符</td>
+					</tr>
+					<tr>
+						<td>343</td>
+						<td>bind</td>
+						<td>绑定</td>
+					</tr>
+					<tr>
+						<td>344</td>
+						<td>binder</td>
+						<td>联编程序</td>
+					</tr>
+					<tr>
+						<td>345</td>
+						<td>binding constraints</td>
+						<td>绑定约束</td>
+					</tr>
+					<tr>
+						<td>346</td>
+						<td>bit field</td>
+						<td>位域</td>
+					</tr>
+					<tr>
+						<td>347</td>
+						<td>bitmask</td>
+						<td>位掩码</td>
+					</tr>
+					<tr>
+						<td>348</td>
+						<td>bitwise</td>
+						<td>按位</td>
+					</tr>
+					<tr>
+						<td>349</td>
+						<td>bitwise complement operator</td>
+						<td>按位求补运算符</td>
+					</tr>
+					<tr>
+						<td>350</td>
+						<td>bit-wise equivalent</td>
+						<td>位等效数</td>
+					</tr>
+					<tr>
+						<td>351</td>
+						<td>bitwise OR operator</td>
+						<td>位 OR 运算符</td>
+					</tr>
+					<tr>
+						<td>352</td>
+						<td>block</td>
+						<td>块</td>
+					</tr>
+					<tr>
+						<td>353</td>
+						<td>block if If 块</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>354</td>
+						<td>body</td>
+						<td>正文</td>
+					</tr>
+					<tr>
+						<td>355</td>
+						<td>Book Edition</td>
+						<td>试用版</td>
+					</tr>
+					<tr>
+						<td>356</td>
+						<td>bookmark</td>
+						<td>书签文件</td>
+					</tr>
+					<tr>
+						<td>357</td>
+						<td>Boolean</td>
+						<td>布尔</td>
+					</tr>
+					<tr>
+						<td>358</td>
+						<td>bottom margin</td>
+						<td>下边距</td>
+					</tr>
+					<tr>
+						<td>359</td>
+						<td>bound</td>
+						<td>上下限</td>
+					</tr>
+					<tr>
+						<td>360</td>
+						<td>break</td>
+						<td>中断</td>
+					</tr>
+					<tr>
+						<td>361</td>
+						<td>break compatibility</td>
+						<td>破坏兼容性</td>
+					</tr>
+					<tr>
+						<td>362</td>
+						<td>break execution</td>
+						<td>中断执行</td>
+					</tr>
+					<tr>
+						<td>363</td>
+						<td>break mode</td>
+						<td>中断模式</td>
+					</tr>
+					<tr>
+						<td>364</td>
+						<td>break state</td>
+						<td>中断状态</td>
+					</tr>
+					<tr>
+						<td>365</td>
+						<td>Bring Forward</td>
+						<td>上移一层</td>
+					</tr>
+					<tr>
+						<td>366</td>
+						<td>Bring In Front</td>
+						<td>置前</td>
+					</tr>
+					<tr>
+						<td>367</td>
+						<td>Bring to Front</td>
+						<td>置于顶层</td>
+					</tr>
+					<tr>
+						<td>368</td>
+						<td>browsable</td>
+						<td>可浏览</td>
+					</tr>
+					<tr>
+						<td>369</td>
+						<td>Browse With</td>
+						<td>浏览方式</td>
+					</tr>
+					<tr>
+						<td>370</td>
+						<td>Brush</td>
+						<td>画笔</td>
+					</tr>
+					<tr>
+						<td>371</td>
+						<td>bubbling</td>
+						<td>冒泡</td>
+					</tr>
+					<tr>
+						<td>372</td>
+						<td>bucket</td>
+						<td>存储桶</td>
+					</tr>
+					<tr>
+						<td>373</td>
+						<td>buddy</td>
+						<td>合作者</td>
+					</tr>
+					<tr>
+						<td>374</td>
+						<td>buffer</td>
+						<td>缓冲区</td>
+					</tr>
+					<tr>
+						<td>375</td>
+						<td>build</td>
+						<td>生成 (v.)；版本 (n.)</td>
+					</tr>
+					<tr>
+						<td>376</td>
+						<td>building block</td>
+						<td>构造块</td>
+					</tr>
+					<tr>
+						<td>377</td>
+						<td>built-in</td>
+						<td>内置</td>
+					</tr>
+					<tr>
+						<td>378</td>
+						<td>bulk</td>
+						<td>批量</td>
+					</tr>
+					<tr>
+						<td>379</td>
+						<td>bulk row fetching</td>
+						<td>批量取行</td>
+					</tr>
+					<tr>
+						<td>380</td>
+						<td>Bulleted List</td>
+						<td>项目符号列表</td>
+					</tr>
+					<tr>
+						<td>381</td>
+						<td>business logic</td>
+						<td>商业规则</td>
+					</tr>
+					<tr>
+						<td>382</td>
+						<td>business process</td>
+						<td>业务处理</td>
+					</tr>
+					<tr>
+						<td>383</td>
+						<td>business rule</td>
+						<td>商业规则</td>
+					</tr>
+					<tr>
+						<td>384</td>
+						<td>button control</td>
+						<td>按钮控件</td>
+					</tr>
+					<tr>
+						<td>385</td>
+						<td>cache</td>
+						<td>缓存</td>
+					</tr>
+					<tr>
+						<td>386</td>
+						<td>cacheability</td>
+						<td>可缓存性</td>
+					</tr>
+					<tr>
+						<td>387</td>
+						<td>Call</td>
+						<td>呼叫</td>
+					</tr>
+					<tr>
+						<td>388</td>
+						<td>call back</td>
+						<td>回调</td>
+					</tr>
+					<tr>
+						<td>389</td>
+						<td>call invoke</td>
+						<td>调用（调用）</td>
+					</tr>
+					<tr>
+						<td>390</td>
+						<td>called procedure</td>
+						<td>被调用过程</td>
+					</tr>
+					<tr>
+						<td>391</td>
+						<td>Caller</td>
+						<td>调用方</td>
+					</tr>
+					<tr>
+						<td>392</td>
+						<td>calling code</td>
+						<td>呼叫代码</td>
+					</tr>
+					<tr>
+						<td>393</td>
+						<td>calling convention</td>
+						<td>调用约定</td>
+					</tr>
+					<tr>
+						<td>394</td>
+						<td>calling process</td>
+						<td>调用进程</td>
+					</tr>
+					<tr>
+						<td>395</td>
+						<td>caption</td>
+						<td>题注</td>
+					</tr>
+					<tr>
+						<td>396</td>
+						<td>carriage return-linefeed</td>
+						<td>回车-换行</td>
+					</tr>
+					<tr>
+						<td>397</td>
+						<td>cascade</td>
+						<td>级联</td>
+					</tr>
+					<tr>
+						<td>398</td>
+						<td>case-sensitive 区分大小写</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>399</td>
+						<td>cast (类型)转换</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>400</td>
+						<td>catalog 目录</td>
+						<td></td>
+					</tr>
+				</tbody>
+				</table>
+				<br>
+				<br>
+				<span style="float: left;"><a href="chengtech1to200.html">[1~200]</a></span>
+				<span style="float: right;"><a href="chengtech401to600.html">[401~600]</a></span>
+
+				</section>
+
+
+				</div>
+				<!--container end-->
+				<div style=""></div>
+				<footer>
+					<span style="color: red;">NO</span> Copyright &copy; 2016,
+					vnvinfo.net!
+				</footer>
+				<script type="text/javascript"
+					src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+				<script
+					src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+				<script type="text/javascript" src="paging.js"></script>
+				<script type="text/javascript">
+					$(document).ready(function() {
+						$('#tableData').paging({
+							limit : 20
+						});
+					});
+				</script>
+</body>
+</html>
