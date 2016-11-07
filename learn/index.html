@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="../images/favicon.ico" rel="shortcut icon"
+	type="image/x-icon" />
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<title>vnvinfo.net</title>
+<script src="../js/script.js"></script>
+<script src="jquery.js"></script>
+<script src="learn.js"></script>
+<style>
+table {
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px dashed blue;
+}
+
+tr.last {
+	border-bottom: none;
+}
+
+tr:hover {
+	background: #9FF781;
+	color: #0000FF;
+	font-weight: bold;
+}
+</style>
+
+</head>
+<body onload="fun();">
+	<div id="container">
+		<header>
+			<h1>
+				<img height="60" width="200" alt="logo" src="../images/logo.jpg">
+				<!-- 				<span class="blue-text">Value</span> 'N' VISION Info. -->
+			</h1>
+			<h2>
+				Never Stop <span class="white-text">LEARNING</span><b>...</b>
+			</h2>
+		</header>
+
+		<nav id="menu">
+			<ul>
+				<li class="menuitem"><a href="../index.html">Home</a></li>
+				<li class="menuitem"><a href="../about.html">About</a></li>
+				<li class="menuitem"><a href="../contact.html">Contact</a></li>
+			</ul>
+			<div id="displayname">
+				<script type="text/javascript">
+					displayName();
+				</script>
+			</div>
+		</nav>
+
+		<aside>
+			<nav id="leftmenu">
+				<h3>Links</h3>
+				<ul>
+					<li><a href="#">Agile Methodologies</a></li>
+					<!-- 					<li><a href="en/cloud/index.html">Cloud Computing</a></li> -->
+					<!-- 					<li><a href="en/corporate/index.html">Corporate Training</a></li> -->
+					<!-- 					<li><a href="en/blog/index.html">Blog</a></li> -->
+					<!-- 					<li><a href="en/other/index.html">Others</a></li> -->
+				</ul>
+
+				<div>
+					<br> <br>
+					<h3>Newsletter</h3>
+					<script type="text/javascript">
+						showText();
+					</script>
+					<form id="news" onsubmit="initStorage()">
+						Name: <input type="text" id="name" name="name"> Email: <input
+							type="email" id="email" name="email"> <input
+							type="submit" value="Send"> <a href="#"
+							onClick="clearAll()">Clear</a>
+					</form>
+				</div>
+			</nav>
+		</aside>
+
+		<section>
+			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
+
+			<h3>Language Learning</h3>
+			<div
+				style="background: #F8E0F1; border-radius: 10px; width: 600px; text-align: center;">
+
+				<table>
+					<thead>
+						<tr>
+							<td colspan="2" style="text-align: center;"><label
+								class="dataLabel" id="sn">2/20</label></td>
+							<td>Total:500</td>
+						</tr>
+					</thead>
+					<tr>
+						<td width="100px">Chinese</td>
+						<td width="400px"><label class="dataLabel" id="chinese"></label></td>
+						<td><button class="chinese">Show</button></td>
+					</tr>
+					<tr>
+						<td>Pinyin</td>
+						<td><label class="dataLabel" id="pinyin"></label></td>
+						<td><button class="pinyin">Show</button></td>
+					</tr>
+					<tr>
+						<td>English</td>
+						<td><label class="dataLabel" id="english"></label></td>
+						<td><button class="english">Show</button></td>
+					</tr>
+					<tr>
+						<td width="100px">Sentence_CN</td>
+						<td><label class="dataLabel" id="sentence_ch"></label></td>
+						<td><button class="sentence_ch">Show</button></td>
+					</tr>
+					<tr>
+						<td>Sentence_EN</td>
+						<td><label class="dataLabel" id="sentence_eng"></label></td>
+						<td><button class="sentence_eng">Show</button></td>
+					</tr>
+
+					<tfoot>
+						<tr class="last">
+							<td style="text-align: center;" colspan="3"><button
+									id="previous">&lt;&lt;Previous</button>
+								<button id="showall">Show All</button>
+								<button id="clearall">Clear All</button>
+								<button id="next">Next &gt;&gt;</button>
+								<button id="refresh">Refresh</button></td>
+						</tr>
+					</tfoot>
+				</table>
+
+
+			</div>
+		</section>
+
+	</div>
+	<!--container end-->
+	<div style=""></div>
+	<footer>
+		<span style="color: red;">NO</span> Copyright &copy; 2016,
+		vnvinfo.net!
+	</footer>
+</body>
+</html>
