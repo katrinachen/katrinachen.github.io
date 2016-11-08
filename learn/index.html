@@ -10,22 +10,25 @@
 <script src="jquery.js"></script>
 <script src="learn.js"></script>
 <style>
+.selection td {
+	text-align: center;
+}
+
 table {
 	border-collapse: collapse;
 }
 
-tr {
+.display tr {
 	border-bottom: 1px dashed blue;
 }
 
-tr.last {
+.display tr.last {
 	border-bottom: none;
 }
 
 tr:hover {
 	background: #9FF781;
 	color: #0000FF;
-	font-weight: bold;
 }
 </style>
 
@@ -59,8 +62,8 @@ tr:hover {
 			<nav id="leftmenu">
 				<h3>Links</h3>
 				<ul>
-					<li><a href="#">Agile Methodologies</a></li>
-					<!-- 					<li><a href="en/cloud/index.html">Cloud Computing</a></li> -->
+					<li><a href="#">HSK</a></li>
+					<li><a href="#">Other</a></li>
 					<!-- 					<li><a href="en/corporate/index.html">Corporate Training</a></li> -->
 					<!-- 					<li><a href="en/blog/index.html">Blog</a></li> -->
 					<!-- 					<li><a href="en/other/index.html">Others</a></li> -->
@@ -86,10 +89,43 @@ tr:hover {
 			<h2>Hey Friends, Thanks for visiting vnvinfo.net!</h2>
 
 			<h3>Language Learning</h3>
+
+			<div style="background: #CEF6F5; width: 390px; text-align: center;">
+				<table class="selection" style="background: #CEF6F5; width: 100%;"
+					border="1">
+					<thead
+						style="text-align: center; font-weight: bold; background: #F5A9F2;">
+						<tr>
+							<td>HSK LEVEL</td>
+							<td>Words Range</td>
+						</tr>
+					</thead>
+					<tr>
+						<td><input oninput="update(value)" id="fader" value="1"
+							type="range" min="1" max="6" step="1" list="hsklevel" /></td>
+						<td><input oninput="updateWordCount(value)" id="faderword"
+							value="2,40"  type="range" min="1" max="150" step="1" multiple/></td>
+					</tr>
+					<tr>
+						<td style="font-weight: bold; color: blue;"><output
+								for="fader" id="volume">HSK-1</output></td>
+						<td><label id="range"></label></td>
+					</tr>
+				</table>
+				<datalist id="hsklevel">
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+				</datalist>
+			</div>
+			<br>
 			<div
 				style="background: #F8E0F1; border-radius: 10px; width: 600px; text-align: center;">
 
-				<table>
+				<table class="display">
 					<thead>
 						<tr>
 							<td colspan="2" style="text-align: center;"><label

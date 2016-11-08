@@ -2,7 +2,10 @@
  * 
  */
 //
+var mydata;
  $(document).ready(function() {
+//	 mydata=5;
+//	 alert(mydata);
         $('button').click(function(e) { 
 //        	var target = e.target || e.srcElement;
         	var className=e.target.getAttribute("class");
@@ -32,7 +35,9 @@
            // return false;
         });
     });
-
+ function update(vol) {
+		document.querySelector('#volume').value = "HSK-"+vol;
+	}
 //$(document).ready(function(){
 // alert("This is Hello World by JQuery");
 //});
