@@ -2,12 +2,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<title>vnvinfo.net</title>
 <link href="../images/favicon.ico" rel="shortcut icon"
 	type="image/x-icon" />
 <link rel="stylesheet" href="../css/style.css" type="text/css">
-<title>vnvinfo.net</title>
-<script src="../js/script.js"></script>
+<link href="jquery-ui.css" rel="stylesheet">
 <script src="jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="../js/script.js"></script>
 <script src="learn.js"></script>
 <style>
 .selection td {
@@ -103,13 +105,12 @@ tr:hover {
 					<tr>
 						<td><input oninput="update(value)" id="fader" value="1"
 							type="range" min="1" max="6" step="1" list="hsklevel" /></td>
-						<td><input oninput="updateWordCount(value)" id="faderword"
-							value="2,40"  type="range" min="1" max="150" step="1" multiple/></td>
+						<td><div id="slider"></div></td>
 					</tr>
 					<tr>
 						<td style="font-weight: bold; color: blue;"><output
 								for="fader" id="volume">HSK-1</output></td>
-						<td><label id="range"></label></td>
+						<td><label style="font-weight: bold; color: blue;text-align:center;" id="spanOutput">1 ~ 30 words</label></td>
 					</tr>
 				</table>
 				<datalist id="hsklevel">

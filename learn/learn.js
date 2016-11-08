@@ -34,6 +34,19 @@ var mydata;
 //           alert(e.target.innerText);
            // return false;
         });
+        ////////////////////
+        var output=$('#spanOutput');
+        var sliderElement=$('#slider');
+    	sliderElement.slider({
+    		range:true,
+    		min:1,
+    		max:100,
+    		values:[1,30],
+    		slide:function(event,ui){
+    			output.html(ui.values[0]+' ~ '+ui.values[1]+' words');
+    		}
+    	});
+    	
     });
  function update(vol) {
 		document.querySelector('#volume').value = "HSK-"+vol;
