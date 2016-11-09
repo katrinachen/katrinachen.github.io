@@ -17,7 +17,7 @@ function loadJSON(callback) {
  
 	var xobj = new XMLHttpRequest();
 	xobj.overrideMimeType("application/json");
-	xobj.open('GET', 'data.json', true);
+	xobj.open('GET', 'json/hsk2.json', true);
 	xobj.onreadystatechange = function() {
 		if (xobj.readyState == 4 && xobj.status == "200") {
 			callback(xobj.responseText);
@@ -26,8 +26,8 @@ function loadJSON(callback) {
 	xobj.send(null);
 }
 function clickme() {
-	alert("clickme");
+	//lert("clickme");
 //	alert(obj[0].name);
 	var d = document.getElementById("demo");
-	d.innerText = obj[0].name;
+	d.innerText = obj[0].py+obj[0].ch;
 }
