@@ -3,7 +3,7 @@
  */
 
 var obj
-function load() {
+function loadData() {
 
 	loadJSON(function(response) {
 		// Parse JSON string into object
@@ -29,5 +29,5 @@ function clickme() {
 	//lert("clickme");
 //	alert(obj[0].name);
 	var d = document.getElementById("demo");
-	d.innerText = obj[0].py+obj[0].ch;
+	d.innerText ="爱好 "+obj[2].py+obj[0].ch;
 }
