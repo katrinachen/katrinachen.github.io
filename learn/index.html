@@ -129,28 +129,29 @@ tr:hover {
 				<table class="display">
 					<thead>
 						<tr>
-							<td colspan="3" style="text-align: center;"><span class="sn">1</span>/<span class="words">30</span><span style="float:right" class="totalWords">150</span></td>
+							<td colspan="3" style="text-align: center;"><span class="sn">1</span><span style="float:right" class="totalWords">150</span></td>
 							
 						</tr>
 					</thead>
+					<tbody class="body">
 					<tr>
 						<td width="100px">ID</td>
-						<td width="400px"><label class="id"></label></td>
+						<td width="400px"><label class="datalabel" id="id"></label></td>
 						<td><button class="id">Show</button></td>
 					</tr>
 					<tr>
 						<td width="100px">Chinese</td>
-						<td width="400px"><label class="ch"></label></td>
+						<td width="400px"><label class="datalabel" id="ch"></label></td>
 						<td><button class="ch">Show</button></td>
 					</tr>
 					<tr>
 						<td>Pinyin</td>
-						<td><label class="py"></label></td>
+						<td><label class="datalabel" id="py"></label></td>
 						<td><button class="py">Show</button></td>
 					</tr>
 					<tr>
 						<td>English</td>
-						<td><label class="eng"></label></td>
+						<td><label class="datalabel" id="eng"></label></td>
 						<td><button class="eng">Show</button></td>
 					</tr>
 					<tr>
@@ -163,15 +164,15 @@ tr:hover {
 						<td><label class="sentence_eng"></label></td>
 						<td><button class="sentence_eng">Show</button></td>
 					</tr>
+					</tbody>
 
 					<tfoot>
 						<tr class="last">
 							<td style="text-align: center;" colspan="3"><button
-									id="previous">&lt;&lt;Previous</button>
+									id="previous">Previous</button>
 								<button id="showall">Show All</button>
 								<button id="clearall">Clear All</button>
-								<button id="next">Next &gt;&gt;</button>
-								<button id="refresh">Refresh</button></td>
+								<button id="next">Next</button>								
 						</tr>
 					</tfoot>
 				</table>
